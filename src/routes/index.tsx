@@ -45,6 +45,7 @@ function Home() {
 				<ResultScreen
 					bird={game.currentBird}
 					result={game.lastResult}
+					score={game.scores[game.currentBird.id] ?? 0}
 					round={game.round}
 					onNext={game.nextRound}
 					onBack={() => game.setScreen("menu")}

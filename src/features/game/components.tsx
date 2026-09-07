@@ -277,7 +277,7 @@ export function QuizScreen({
 					</div>
 				) : gameMode === "image-name" ? (
 					<img
-						className="aspect-[1.16] w-full object-cover saturate-[.85]"
+						className="aspect-[1.16] w-full object-contain saturate-[.85]"
 						src={bird.image}
 						alt="Tunnistettava tirppa"
 					/>
@@ -322,7 +322,7 @@ export function QuizScreen({
 								>
 									{gameMode === "name-image" ? (
 										<img
-											className="-mx-4 -mt-3 mb-3 h-22 w-[calc(100%+2rem)] object-cover"
+											className="-mx-4 -mt-3 mb-3 h-22 w-[calc(100%+2rem)] object-contain"
 											src={choice.image}
 											alt="Vastausvaihtoehto"
 										/>
@@ -342,11 +342,19 @@ export function QuizScreen({
 	);
 }
 
-export function BirdCard({ bird }: { bird: Bird }) {
+export function BirdCard({
+	bird,
+	score,
+	points,
+}: {
+	bird: Bird;
+	score: number;
+	points: number;
+}) {
 	return (
 		<article className="my-8 bg-[#dfe5da]">
 			<img
-				className="h-52.5 w-full object-cover"
+				className="h-52.5 w-full object-contain"
 				src={bird.image}
 				alt={bird.name}
 			/>
@@ -355,6 +363,9 @@ export function BirdCard({ bird }: { bird: Bird }) {
 					<div>
 						<p className={eyebrow}>{wingClass(bird.wingspanCm)}</p>
 						<h2 className="my-1 text-[31px] font-normal">{bird.name}</h2>
+						<p className="text-xs font-bold uppercase tracking-[0.08em] text-[#ca624d]">
+							{score} / 10 pistettä (+{points})
+						</p>
 						<i className="text-xs text-[#687066]">
 							{bird.englishName} / {bird.scientificName}
 						</i>
@@ -384,12 +395,14 @@ export function BirdCard({ bird }: { bird: Bird }) {
 export function ResultScreen({
 	bird,
 	result,
+	score,
 	round,
 	onNext,
 	onBack,
 }: {
 	bird: Bird;
 	result: Attempt;
+	score: number;
 	round: number;
 	onNext: () => void;
 	onBack: () => void;
@@ -416,10 +429,10 @@ export function ResultScreen({
 				<p className="max-w-xl text-xl leading-[1.45] text-[#59625a]">
 					Oikea vastaus on <strong>{bird.name}</strong>.{" "}
 					{result.wasCorrect
-						? `Ansaitsit ${result.points} pistettä.`
+						? `Ansaitsit ${result.points} pistettä linnulle ${bird.name}.`
 						: "Pisteet puolittuivat, mutta seuraava tirppa on jo tulossa."}
 				</p>
-				<BirdCard bird={bird} />
+				<BirdCard bird={bird} score={score} points={result.points} />
 				<button type="button" className={primary} onClick={onNext}>
 					{round >= 9 ? "Katso yhteenveto" : "Seuraava tirppa"}
 					<span className="text-2xl font-normal">→</span>
