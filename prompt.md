@@ -19,7 +19,7 @@ Use the following technologies
 - Tailwind
 - Shadcn / UI
 - Biome
-- Git (use git and sensible git commits as you make progress)
+- Git (use git and sensible git commits as you make progress; no remote repo exists yet, only local repo)
 
 ## Purpose
 
@@ -151,6 +151,7 @@ All attempts should be recorded in `localStorage`:
 
 ## Hosting
 
+- I will deploy this project later, do not worry about deployment -- only ensure the project is in a ready-to-deploy state.
 - This project must be made hostable on Vercel via the Vercel git integration.
 - This project will be hosted at `tirppatunnistin.jussinevavuori.com`.
 

@@ -1,17 +1,32 @@
-
 @import "tailwindcss";
 
-* {
-  box-sizing: border-box;
+@theme {
+	--font-serif: Georgia, "Times New Roman", serif;
 }
 
-html,
-body,
-#app {
-  min-height: 100%;
-}
+@layer base {
+	* {
+		box-sizing: border-box;
+	}
 
-body {
-  margin: 0;
-}
+	html,
+	body,
+	#app {
+		min-height: 100%;
+	}
 
+	body {
+		margin: 0;
+		background: #e7e4dc;
+		font-family: var(--font-serif);
+	}
+
+	button,
+	input {
+		font: inherit;
+	}
+
+	button {
+		cursor: pointer;
+	}
+}

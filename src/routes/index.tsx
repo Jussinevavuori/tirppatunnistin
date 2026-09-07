@@ -1,14 +1,62 @@
-import { createFileRoute } from '@tanstack/react-router'
+import { createFileRoute } from "@tanstack/react-router";
+import { birds } from "../features/game/birds";
+import {
+	AppShell,
+	MenuScreen,
+	QuizScreen,
+	ResultScreen,
+	SummaryScreen,
+} from "../features/game/components";
+import { useGame } from "../features/game/use-game";
 
-export const Route = createFileRoute('/')({ component: Home })
+export const Route = createFileRoute("/")({ component: Home });
 
 function Home() {
-  return (
-    <div className="p-8">
-      <h1 className="text-4xl font-bold">Welcome to TanStack Start</h1>
-      <p className="mt-4 text-lg">
-        Edit <code>src/routes/index.tsx</code> to get started.
-      </p>
-    </div>
-  )
+	const game = useGame();
+
+	return (
+		<AppShell>
+			{game.screen === "menu" && (
+				<MenuScreen
+					gameMode={game.gameMode}
+					answerMode={game.answerMode}
+					learned={game.learned}
+					total={birds.length}
+					onStart={game.startGame}
+					onGameModeChange={game.setGameMode}
+					onAnswerModeChange={game.setAnswerMode}
+				/>
+			)}
+			{game.screen === "game" && game.currentBird && (
+				<QuizScreen
+					bird={game.currentBird}
+					choices={game.choices}
+					round={game.round}
+					score={game.scores[game.currentBird.id] ?? 0}
+					gameMode={game.gameMode}
+					answerMode={game.answerMode}
+					guess={game.guess}
+					onGuessChange={game.setGuess}
+					onSubmit={game.submitGuess}
+					onBack={() => game.setScreen("menu")}
+				/>
+			)}
+			{game.screen === "result" && game.currentBird && game.lastResult && (
+				<ResultScreen
+					bird={game.currentBird}
+					result={game.lastResult}
+					round={game.round}
+					onNext={game.nextRound}
+					onBack={() => game.setScreen("menu")}
+				/>
+			)}
+			{game.screen === "summary" && (
+				<SummaryScreen
+					attempts={game.attempts.slice(-10)}
+					onAgain={game.startGame}
+					onEnd={() => game.setScreen("menu")}
+				/>
+			)}
+		</AppShell>
+	);
 }
