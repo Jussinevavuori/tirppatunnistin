@@ -5,6 +5,7 @@ import {
 	normalizeAnswer,
 	pointsForCorrectAnswer,
 	scoreForBird,
+	selectBirdsForRound,
 } from "./game-utils";
 import { loadAttempts, saveAttempts } from "./storage";
 import type { AnswerMode, Attempt, GameMode, Screen } from "./types";
@@ -46,15 +47,7 @@ export function useGame() {
 		birds.filter((bird) => (scores[bird.id] ?? 0) >= threshold).length;
 
 	const startGame = () => {
-		setGameBirds(
-			[...birds]
-				.sort(
-					(a, b) =>
-						(scores[a.id] ?? 0) - (scores[b.id] ?? 0) ||
-						a.id.localeCompare(b.id),
-				)
-				.slice(0, 10),
-		);
+		setGameBirds(selectBirdsForRound(birds, attempts, 10));
 		setRound(0);
 		setGuess("");
 		setScreen("game");
