@@ -1,6 +1,11 @@
+import { top100BirdNames } from "./ranking";
 import type { Attempt, Bird } from "./types";
 
 export const STORAGE_KEY = "tirppatunnistin-attempts";
+
+const commonnessRanks = new Map(
+	top100BirdNames.map((name, index) => [name, index]),
+);
 
 export const normalizeAnswer = (value: string) =>
 	value.toLocaleLowerCase("fi-FI").replace(/[\s\p{P}\p{S}]/gu, "");
@@ -58,7 +63,9 @@ export const selectBirdsForRound = (
 			const elapsedDays = lastGuess
 				? Math.min(7, Math.max(0, (now - lastGuess) / day))
 				: 7;
-			return 1 + elapsedDays;
+			const rank = commonnessRanks.get(bird.name);
+			const commonnessBoost = rank === undefined ? 1 : 1.5 - rank / 200;
+			return (1 + elapsedDays) * commonnessBoost;
 		});
 		const weightTotal = weights.reduce((total, weight) => total + weight, 0);
 		let target = random() * weightTotal;
