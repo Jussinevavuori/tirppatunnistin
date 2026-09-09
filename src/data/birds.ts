@@ -50,7 +50,7 @@ export const BIRDS: Bird[] = [
 				"Yleinen koko maassa (Lapissa laikuttaisesti) pihoilla, puistoissa ja metsissä.",
 			sound:
 				"Tavallisin laulutyyppi ”ti-tyy ti-tyy” tai yhä harvemmin kuuluva ”titi-tyy”.",
-			other: "Talviruokintapaikkojen yleisin laji. Viikko 2",
+			other: "Talviruokintapaikkojen yleisin laji.",
 			size: "14–16 cm, sinitiaista suurempi, vähän varpusta pienempi.",
 		},
 		imageUrl:
@@ -90,7 +90,7 @@ export const BIRDS: Bird[] = [
 			location: "Yleinen koko maassa monenlaisissa ympäristöissä.",
 			sound: "Venähtävä raakkuva, käheä ”kraa kraa”.",
 			other:
-				"Suuri osa variksista muuttaa talveksi pois Suomesta, vaikka laji on talvellakin yleinen. Viikko 3",
+				"Suuri osa variksista muuttaa talveksi pois Suomesta, vaikka laji on talvellakin yleinen.",
 			size: "Noin 45–50 cm (suurimpia varpuslintujamme), selvästi suurempi kuin naakka tai kesykyyhky.",
 		},
 		imageUrl:
@@ -132,7 +132,7 @@ export const BIRDS: Bird[] = [
 			location: "Yleinen koko maassa pohjoisinta Lappia lukuun ottamatta.",
 			sound:
 				"Kutsu- ja varoitusääni kuuluva ”gyk” . Lyhyt ja nopea rummutus kuuluu kauas.",
-			other: "Yleisin tikkamme, tavallinen talviruokintapaikoilla. Viikko 4",
+			other: "Yleisin tikkamme, tavallinen talviruokintapaikoilla.",
 			size: "Noin 25 cm, suunnilleen musta- tai räkättirastaan kokoinen.",
 		},
 		imageUrl:
@@ -173,8 +173,7 @@ export const BIRDS: Bird[] = [
 			location:
 				"Yleinen lähes koko maassa sekä kaupungeissa että maaseudulla. Kanta taantunut kuitenkin noin puoleen 30 vuodessa.",
 			sound: "Verkkainen silputus ”tsilp tsilp” tai ”tsrip tsrip”.",
-			other:
-				"Parvet viihtyvät erityisesti tiheissä orapihlaja-aidoissa. Viikko 5",
+			other: "Parvet viihtyvät erityisesti tiheissä orapihlaja-aidoissa.",
 			size: "Noin 15 cm, peipon ja viherpeipon kokoinen.",
 		},
 		imageUrl:
@@ -215,7 +214,7 @@ export const BIRDS: Bird[] = [
 				"Yleinen kaupungeissa ja suurimmissa asutuskeskuksissa, erityisesti Etelä-Suomessa. Pohjoisin kanta Inarissa.",
 			sound: "Kujertava tai kurnuttava, pehmeä ”krjuu krjuu”.",
 			other:
-				"Polveutuu kalliokyyhkystä. Pesii rakennuksissa lähes ympäri vuoden. Viikko 6",
+				"Polveutuu kalliokyyhkystä. Pesii rakennuksissa lähes ympäri vuoden.",
 			size: "30–35 cm, naakan kokoinen, varista pienempi.",
 		},
 		imageUrl:
@@ -258,7 +257,7 @@ export const BIRDS: Bird[] = [
 			sound:
 				"Laulu sointuva ”djydjydjy…” , jonka katkaisee välillä tyypillinen ryystäävä ”dsryyy”.",
 			other:
-				"Viherpeipon löytää usein ruusuistutuksissa syömässä ruusunkiulukoiden siemeniä. Viikko 7",
+				"Viherpeipon löytää usein ruusuistutuksissa syömässä ruusunkiulukoiden siemeniä.",
 			size: "Noin 15 cm, varpusen kokoinen.",
 		},
 		imageUrl:
@@ -301,7 +300,7 @@ export const BIRDS: Bird[] = [
 				"Yleinen joka paikan sorsa koko maassa, talvella suurina parvina sorsien ruokintapaikoilla.",
 			sound: "Ankkamainen rääpätys.",
 			other:
-				"Sinisorsa on kesyankan kantamuoto. Luonnossakin sinisorsilla näkee suhteellisen usein erilaisia värimuunnoksia. Viikko 8",
+				"Sinisorsa on kesyankan kantamuoto. Luonnossakin sinisorsilla näkee suhteellisen usein erilaisia värimuunnoksia.",
 			size: "50–60 cm, vähän varista suurempi.",
 		},
 		imageUrl:
@@ -341,7 +340,7 @@ export const BIRDS: Bird[] = [
 				"Yleinen lähes koko maassa merensaaristossa ja sisäjärvillä, Pohjois-Lapissa vain harvakseltaan.",
 			sound: "Kuuluva kailotus ”kjau” ja nopeampi ”ga-ga-ga”.",
 			other:
-				"Harmaalokki pitää hallussaan Suomessa rengastettujen lintujen ikäennätystä. Kesäkuussa 1987 pesäpoikasena rengastettu lintu löytyi kuolleena 35 vuotta myöhemmin kesäkuussa 2022. Viikko 9",
+				"Harmaalokki pitää hallussaan Suomessa rengastettujen lintujen ikäennätystä. Kesäkuussa 1987 pesäpoikasena rengastettu lintu löytyi kuolleena 35 vuotta myöhemmin kesäkuussa 2022.",
 			size: "55–60 cm, varista suurempi.",
 		},
 		imageUrl:
@@ -383,7 +382,7 @@ export const BIRDS: Bird[] = [
 			sound:
 				"Valittava, melko nopea ”kui-kui-kui…” ja venyvä ”kryy” , rummutus kauas kuuluva konekiväärimäinen sarja.",
 			other:
-				"Palokärki kovertaa tavallisesti joka vuosi uuden pesäkolon ja on siten tärkeä pesänikkari isommille kolopesijöille. Viikko 10",
+				"Palokärki kovertaa tavallisesti joka vuosi uuden pesäkolon ja on siten tärkeä pesänikkari isommille kolopesijöille.",
 			size: "Noin 45 cm, suurin tikkamme, suunnilleen variksen kokoinen.",
 		},
 		imageUrl:
@@ -426,7 +425,7 @@ export const BIRDS: Bird[] = [
 			sound:
 				"Yöllä kuuluva soidinääni aavemaisena värisevä ”huu hu-hu-hu-huuuu” , kutsuääni terävä ”ki-vitt”.",
 			other:
-				"Punaruskealla värimuodolla on vilkkaampi aineenvaihdunta. Tämä aiemmin harvinaisempi värimuoto on runsastunut talvien muututtua leudommiksi. Viikko 11",
+				"Punaruskealla värimuodolla on vilkkaampi aineenvaihdunta. Tämä aiemmin harvinaisempi värimuoto on runsastunut talvien muututtua leudommiksi.",
 			size: "Noin 40 cm, vähän varista pienempi.",
 		},
 		imageUrl:
@@ -469,7 +468,7 @@ export const BIRDS: Bird[] = [
 			sound:
 				"Soitimella naukuvasti sointuva ”vii-uu-i viu viu” , siivistä kuuluu pumppaava humina.",
 			other:
-				"Kevään ensimmäisiä muuttolintuja. Voi kuitenkin muuttaa takaisin pakkasen tai lumisateen tieltä. Viikko 12",
+				"Kevään ensimmäisiä muuttolintuja. Voi kuitenkin muuttaa takaisin pakkasen tai lumisateen tieltä.",
 			size: "noin 30 cm, naakan tai kyyhkyn kokoinen.",
 		},
 		imageUrl:
@@ -512,7 +511,7 @@ export const BIRDS: Bird[] = [
 			sound:
 				"Soitimella karkeaa narinaa. Tyypillisempi ääni on koiraan siivistä kuuluva viuhuva ääni.",
 			other:
-				"Pesii pöntöissä tai luonnonkoloissa, jotka voivat olla jopa kilometrien päässä lähimmältä lammelta tai järveltä. Pesästälähdön jälkeen emo johdattaa poikaset veteen. Viikko 13",
+				"Pesii pöntöissä tai luonnonkoloissa, jotka voivat olla jopa kilometrien päässä lähimmältä lammelta tai järveltä. Pesästälähdön jälkeen emo johdattaa poikaset veteen.",
 			size: "Noin 45 cm, sinisorsaa pienempi.",
 		},
 		imageUrl:
@@ -554,7 +553,7 @@ export const BIRDS: Bird[] = [
 				"Melko yleinen koko maassa lammilla ja järvenlahdilla, harvemmin merellä.",
 			sound: "Voimakas, kauaskuuluva trumpettimainen joiku.",
 			other:
-				"Suomen kansallislintu. Hyvin pariuskollinen: Puolisot pysyttelevät yleensä yhdessä niin kauan kuin molemmat ovat elossa. Viikko 14",
+				"Suomen kansallislintu. Hyvin pariuskollinen: Puolisot pysyttelevät yleensä yhdessä niin kauan kuin molemmat ovat elossa.",
 			size: "Noin 150 cm, kyhmyjoutsenen kokoinen, hanhia selvästi suurempi.",
 		},
 		imageUrl:
@@ -597,7 +596,7 @@ export const BIRDS: Bird[] = [
 			sound:
 				"Taitava matkija. Laulussa voi olla aiheita monen tutun linnun äänistä.",
 			other:
-				"Kottarainen on levinnyt ihmisen mukana Euroopasta ja Länsi-Aasiasta muille mantereille, ja se luokitellaan yhdeksi maailman sadasta haitallisimmasta vieraslajista. Viikko 15",
+				"Kottarainen on levinnyt ihmisen mukana Euroopasta ja Länsi-Aasiasta muille mantereille, ja se luokitellaan yhdeksi maailman sadasta haitallisimmasta vieraslajista.",
 			size: "Noin 20 cm, pienempi kuin mustarastas.",
 		},
 		imageUrl:
@@ -639,7 +638,7 @@ export const BIRDS: Bird[] = [
 				"Pesii harvakseltaan Pohjois-Suomen soilla, muuttoaikoina yleinen Etelä-Suomessa.",
 			sound: "Matala kaakattava pajatus.",
 			other:
-				"Metsähanhi on riistalintu, mutta meillä pesivä kanta on voimakkaasti taantunut. Suomessa pesii kaksi alalajia. Pohjoisimmassa Lapissa pesivä tundrametsähanhi on luokiteltu erittäin uhanalaiseksi ja taigametsähanhi vaarantuneeksi. Viikko 16",
+				"Metsähanhi on riistalintu, mutta meillä pesivä kanta on voimakkaasti taantunut. Suomessa pesii kaksi alalajia. Pohjoisimmassa Lapissa pesivä tundrametsähanhi on luokiteltu erittäin uhanalaiseksi ja taigametsähanhi vaarantuneeksi.",
 			size: "Noin 80 cm, sinisorsaa suurempi, laulujoutsenta pienempi.",
 		},
 		imageUrl:
@@ -681,7 +680,7 @@ export const BIRDS: Bird[] = [
 				"Lähes koko maassa soilla, rantaniityillä ja ruovikoissa, Lapissa harvalukuinen.",
 			sound: "Voimakas trumpettimainen ”krruu”.",
 			other:
-				"Ennen muinoin kuviteltiin, että pikkulintuja muuttaa syksyisin kurkien siivellä etelään. Tämä johtuu siitä, että nuorilla kurjilla on aivan erilainen ääni: heikko piiskutus. Pohjois-Pohjanmaan maakuntalintu. Viikko 17",
+				"Ennen muinoin kuviteltiin, että pikkulintuja muuttaa syksyisin kurkien siivellä etelään. Tämä johtuu siitä, että nuorilla kurjilla on aivan erilainen ääni: heikko piiskutus. Pohjois-Pohjanmaan maakuntalintu.",
 			size: "100–120 cm (siipienväli noin 2 metriä), maassa seisten pisin lintumme.",
 		},
 		imageUrl:
@@ -724,7 +723,7 @@ export const BIRDS: Bird[] = [
 				"Yleinen metsissä, puistoissa ja pihoilla. Pohjois-Suomessa harvalukuisempi kuin järripeippo.",
 			sound: "Pirteä samanlaisena toistuva säe, kutsuääni ”tvink”.",
 			other:
-				"Peippo on Suomen runsain lintulaji. Pajulintuja on suunnilleen yhtä paljon. Viikko 18",
+				"Peippo on Suomen runsain lintulaji. Pajulintuja on suunnilleen yhtä paljon.",
 			size: "Noin 15 cm, varpusen kokoinen.",
 		},
 		imageUrl:
@@ -765,7 +764,7 @@ export const BIRDS: Bird[] = [
 				"Pesii Pohjois-Suomen soilla ja järvenrantaniityillä, muuttoaikoina koko maassa.",
 			sound: "Ei juuri ääntele.",
 			other:
-				"Suokukoilla on monimutkainen ryhmäsoidin, jossa erinäköisillä koirailla on erilainen asema. Useimmat koiraat tappelevat herruudesta, mutta ylinnä hierarkiassa ovat valkokauluksiset satelliittikoiraat. On myös koiraita, jotka ”hiiviskelevät” soidinpaikalla naaraan näköisinä. Viikko 19",
+				"Suokukoilla on monimutkainen ryhmäsoidin, jossa erinäköisillä koirailla on erilainen asema. Useimmat koiraat tappelevat herruudesta, mutta ylinnä hierarkiassa ovat valkokauluksiset satelliittikoiraat. On myös koiraita, jotka ”hiiviskelevät” soidinpaikalla naaraan näköisinä.",
 			size: "Koiras noin 30 cm, naaras selvästi pienempi – noin 25 cm.",
 		},
 		imageUrl:
@@ -806,7 +805,7 @@ export const BIRDS: Bird[] = [
 			sound:
 				"Koiraalla kumea, ihmettelevä tai ihastunut huudahdus ”auu-uu” , naaraalla tasainen kaakatus.",
 			other:
-				"Haahkanuntuvia on kerätty pesistä takkien ja peittojen täytteeksi pesinnän jälkeen. Naaras on vuorannut pesän untuvilla, joita se on nyppinyt rinnastaan. Viikko 20",
+				"Haahkanuntuvia on kerätty pesistä takkien ja peittojen täytteeksi pesinnän jälkeen. Naaras on vuorannut pesän untuvilla, joita se on nyppinyt rinnastaan.",
 			size: "60–70 cm, sinisorsaa isompi.",
 		},
 		imageUrl:
@@ -847,7 +846,7 @@ export const BIRDS: Bird[] = [
 			sound:
 				"Laulu hieman surumielinen, loppua kohti laskeva säe. Kutsuääni pehmeä ”hyyit”.",
 			other:
-				"Peipon ohella Suomen runsain lintulaji: pesimäkannaksi arvioidaan 6–9 miljoonaa paria. Viikko 21",
+				"Peipon ohella Suomen runsain lintulaji: pesimäkannaksi arvioidaan 6–9 miljoonaa paria.",
 			size: "11–12 cm, sinitiaisen kokoinen.",
 		},
 		imageUrl:
@@ -890,7 +889,7 @@ export const BIRDS: Bird[] = [
 			sound:
 				"Voimakas, yksinkertainen laulu, jossa huilumaisia vihellyksiä ja teräviä näppäilyjä.",
 			other:
-				"Laulaa aktiivisimmin yöllä. Laulun voimakkuus on yli 70 desibeliä, ja se voi kuulua yli kilometrin päähän. Etelä-Karjalan maakuntalintu. Viikko 22",
+				"Laulaa aktiivisimmin yöllä. Laulun voimakkuus on yli 70 desibeliä, ja se voi kuulua yli kilometrin päähän. Etelä-Karjalan maakuntalintu.",
 			size: "Noin 16 cm, suurempi kuin talitiainen, pienempi kuin kottarainen.",
 		},
 		imageUrl:
@@ -931,7 +930,7 @@ export const BIRDS: Bird[] = [
 			location: "Pensaikoissa ja tunturikoivikoissa Metsä- ja Tunturi-Lapissa.",
 			sound:
 				"Monipuolinen laulu sisältä monenlaisia matkintoja, maiskahtava kutsuääni muistuttaa lipputankoon osuvaa narua.",
-			other: "Sinirinta on Lapin maakuntalintu. Viikko 23",
+			other: "Sinirinta on Lapin maakuntalintu.",
 			size: "Noin 14 cm, talitiaisen tai peipon kokoinen.",
 		},
 		imageUrl:
@@ -975,7 +974,7 @@ export const BIRDS: Bird[] = [
 			sound:
 				"Laulu kiireistä, paljon karheita rätinöitä sisältävää. Helppo erottaa muista kerttusista.",
 			other:
-				"Laulaa usein näkyvällä paikalla, mutta piilottelee muulloin kasvillisuuden kätköissä. Viikko 24",
+				"Laulaa usein näkyvällä paikalla, mutta piilottelee muulloin kasvillisuuden kätköissä.",
 			size: "Noin 12 cm, pieni, kirjosiepon kokoluokkaa",
 		},
 		imageUrl:
@@ -1018,7 +1017,7 @@ export const BIRDS: Bird[] = [
 			sound:
 				"Yksitoikkoinen kauaskuuluva ”kree kree” , joka voi toistua loppumattomana läpi yön. Laulaa toisinaan myös päiväsaikaan.",
 			other:
-				"Piilotteleva, yleensä vain laulu paljastaa esiintymisen. Juoksee karkuun mieluummin kuin lentää. Viikko 25",
+				"Piilotteleva, yleensä vain laulu paljastaa esiintymisen. Juoksee karkuun mieluummin kuin lentää.",
 			size: "Noin 25 cm, hieman räkättirastasta suurempi.",
 		},
 		imageUrl:
@@ -1060,7 +1059,7 @@ export const BIRDS: Bird[] = [
 			sound:
 				"Tavallisimmin toistaa nimeään ”kuu-vi” . Muuttoaikaan yleisesti ”kyi-kyi-kyi” -ääntä, joka kuuluu kesällä etelää kohti matkaavista parvista.",
 			other:
-				"Syysmuutto alkaa monien kahlaajalajien tavoin jo aikaisin kesäkuussa. Naaraat jättävät poikasista huolehtimisen koiraiden tehtäväksi. Etelä-Pohjanmaan maakuntalintu. Viikko 26",
+				"Syysmuutto alkaa monien kahlaajalajien tavoin jo aikaisin kesäkuussa. Naaraat jättävät poikasista huolehtimisen koiraiden tehtäväksi. Etelä-Pohjanmaan maakuntalintu.",
 			size: "Noin 55 cm, variksen kokoluokkaa.",
 		},
 		imageUrl:
@@ -1102,7 +1101,7 @@ export const BIRDS: Bird[] = [
 			location: "Karujen vesistöjen rannat. Tavallinen myös mökkirannoilla.",
 			sound:
 				"Varoittaa kirkkaalla ”hiip” -äänellä ja veden pintaa lentäessään huutaa usein mukavaa ”hi-di-dii hi-di-dii” -sarjaa.",
-			other: "Keikuttaa luonteenomaisesti pyrstöään liikkuessaan. Viikko 27",
+			other: "Keikuttaa luonteenomaisesti pyrstöään liikkuessaan.",
 			size: "Noin 20 cm eli kottaraisen kokoinen.",
 		},
 		imageUrl:
@@ -1145,7 +1144,7 @@ export const BIRDS: Bird[] = [
 			sound:
 				"Monenlaisia voimakkaita kirkkaita ja korisevia ääniä. Luonteenomainen helposti tunnettava ääni on kuikan ”ku-kuik ku-kuik” -huuto, joka voi kuulua tyynellä järvellä kilometrien päähän.",
 			other:
-				"Pitkäikäinen, saavuttaa sukukypsyyden vasta 5–7 vuoden iässä. Pohjois-Savon maakuntalintu. Viikko 28",
+				"Pitkäikäinen, saavuttaa sukukypsyyden vasta 5–7 vuoden iässä. Pohjois-Savon maakuntalintu.",
 			size: "Noin 70 cm eli selvästi sinisorsaa suurempi.",
 		},
 		imageUrl:
@@ -1187,7 +1186,7 @@ export const BIRDS: Bird[] = [
 			location: "Koko Suomessa järvillä, rannikolla ja saaristossa.",
 			sound: "Kailottava ”keä” tai ”kiiiä” , ääni kimeämpi kuin harmaalokilla.",
 			other:
-				"Pesä tavallisesti maassa, mutta voi rakentaa pesänsä puun oksalle tai rakennuksen katolle, erityisesti kaupungeissa ja tehdasalueilla. Viikko 29",
+				"Pesä tavallisesti maassa, mutta voi rakentaa pesänsä puun oksalle tai rakennuksen katolle, erityisesti kaupungeissa ja tehdasalueilla.",
 			size: "Noin 40–45 cm, vähän suurempi kuin naurulokki, selvästi pienempi kuin harmaalokki.",
 		},
 		imageUrl:
@@ -1228,7 +1227,7 @@ export const BIRDS: Bird[] = [
 			location: "Lähes koko Suomessa, erityisesti maatiloilla.",
 			sound: "Hyväntuulinen, Rupatteleva ja nariseva visertely.",
 			other:
-				"Kerääntyy loppukesällä parviin, jotka yöpyvät ruovikoissa. Suurimmissa yöpymisparvissa voi olla tuhansia lintuja. Viikko 30",
+				"Kerääntyy loppukesällä parviin, jotka yöpyvät ruovikoissa. Suurimmissa yöpymisparvissa voi olla tuhansia lintuja.",
 			size: "Noin 19 cm, josta pyrstön osuus koiraalla jopa kolmannes.",
 		},
 		imageUrl:
@@ -1271,7 +1270,7 @@ export const BIRDS: Bird[] = [
 			sound:
 				"Yllättävän heikko piipittävä ”pjyp” , varoitusääni voimakkaampi toistuva ”pjyp-pjyp-pjyp”.",
 			other:
-				"Lekuttelee, syöksyy ja sukeltaa saaliin kimppuun. Syö pelkästään kaloja. Kanta-Hämeen maakuntalintu. Viikko 31",
+				"Lekuttelee, syöksyy ja sukeltaa saaliin kimppuun. Syö pelkästään kaloja. Kanta-Hämeen maakuntalintu.",
 			size: "Noin 60 cm, suurin päiväpetolintumme kotkien jälkeen.",
 		},
 		imageUrl:
@@ -1314,7 +1313,7 @@ export const BIRDS: Bird[] = [
 			sound:
 				"Laulu yksinkertainen toistettu venähtävä, karkea ”psriiy” , lento- ja kutsuääni ”tsliy”.",
 			other:
-				"Pohjois-Suomen keltavästäräkit kuuluvat alalajiin, jonka koiraalla on silmän ympärillä tumma alue. Etelä-Suomessa pesivillä välimuotoisilla koirailla on vaihtelevasti tumma tai valkea silmäkulmanjuova. Viikko 32",
+				"Pohjois-Suomen keltavästäräkit kuuluvat alalajiin, jonka koiraalla on silmän ympärillä tumma alue. Etelä-Suomessa pesivillä välimuotoisilla koirailla on vaihtelevasti tumma tai valkea silmäkulmanjuova.",
 			size: "Noin 16 cm, suunnilleen västäräkin kokoinen.",
 		},
 		imageUrl:
@@ -1354,7 +1353,7 @@ export const BIRDS: Bird[] = [
 			location: "Yleinen koko maassa monenlaisissa vesistöissä.",
 			sound: "Koiraan soidinääni sivaltava ”viuuh” , naaraalla käheä rääpätys.",
 			other:
-				"Haapana on monen muun vesilinnun tavoin vähentynyt, ja laji luokitellaan uhanalaiseksi. Viikko 33",
+				"Haapana on monen muun vesilinnun tavoin vähentynyt, ja laji luokitellaan uhanalaiseksi.",
 			size: "Noin 45–50 cm, pienempi kuin sinisorsa.",
 		},
 		imageUrl:
@@ -1395,7 +1394,7 @@ export const BIRDS: Bird[] = [
 				"Pesii paikoin saaristossa yhdyskuntina, harvinaisena sisämaassakin.",
 			sound: "Karhea, kova rääkäisy ”hrääk”.",
 			other:
-				"Pesinnän jälkeen hajaantuvat laajalle alueelle. Loppukesällä ja syksyllä kaikkialla kiertelijöitä eteläistä Lappia myöten merenlahdilla, järvillä ja muilla kosteikoilla. Viikko 34",
+				"Pesinnän jälkeen hajaantuvat laajalle alueelle. Loppukesällä ja syksyllä kaikkialla kiertelijöitä eteläistä Lappia myöten merenlahdilla, järvillä ja muilla kosteikoilla.",
 			size: "90–100 cm (siipiväli noin 180 cm), pienempi kuin kurki.",
 		},
 		imageUrl:
@@ -1436,7 +1435,7 @@ export const BIRDS: Bird[] = [
 			sound:
 				"Laulu pehmeästi tiputteleva ”tilt-tilt-talt…” , kutsuääni ponnekas ”hyit”.",
 			other:
-				"Tiltaltti on yksi monista äänen perusteella nimetyistä linnuistamme. Tällaisia nimiä sanotaan onomatopoeettisiksi. Viikko 35",
+				"Tiltaltti on yksi monista äänen perusteella nimetyistä linnuistamme. Tällaisia nimiä sanotaan onomatopoeettisiksi.",
 			size: "10–12 cm, pajulinnun ja sinitiaisen kokoinen.",
 		},
 		imageUrl:
@@ -1477,7 +1476,7 @@ export const BIRDS: Bird[] = [
 				"Pohjoisinta Lappia lukuun ottamatta koko maassa tiheissä metsissä.",
 			sound: "Yleensä hiljainen, kutsu- ja soidinääni valittava ”kiii”.",
 			other:
-				"Yleisin päiväpetolintumme. Suurin osa varpushaukoista muuttaa syyskuussa Suomesta, osa jää talvehtimaan. Viikko 36",
+				"Yleisin päiväpetolintumme. Suurin osa varpushaukoista muuttaa syyskuussa Suomesta, osa jää talvehtimaan.",
 			size: "30–35 cm, pienempi kuin varis. Naaras suurempi kuin koiras.",
 		},
 		imageUrl:
@@ -1520,8 +1519,7 @@ export const BIRDS: Bird[] = [
 				"Metsissä, erityisesti havumetsissä. Syksyisin erityisen runsas saaristossa.",
 			sound:
 				"Hyvin korkeita ja kirkkaita ääniä . Laulu korkea toistuva veivaava säe.",
-			other:
-				"Vanhempien ihmisten on vaikea kuulla hippiäisen korkeita ääniä. Viikko 37",
+			other: "Vanhempien ihmisten on vaikea kuulla hippiäisen korkeita ääniä.",
 			size: "Noin 9 cm, selvästi tiaisia ja pajulintua pienempi.",
 		},
 		imageUrl:
@@ -1563,7 +1561,7 @@ export const BIRDS: Bird[] = [
 			sound:
 				"Voimakas karhea rääkäisy. On taitava matkimaan muun muassa hiirihaukkaa.",
 			other:
-				"Kerää syksyllä tammenterhoja ja muita herkkuja metsiin varastoihin. Voi innostua myös keräämään pähkinöitä ruokinnalta omiin varastoihinsa, jolloin niiden menekki voi olla hyvin suurta. Viikko 38",
+				"Kerää syksyllä tammenterhoja ja muita herkkuja metsiin varastoihin. Voi innostua myös keräämään pähkinöitä ruokinnalta omiin varastoihinsa, jolloin niiden menekki voi olla hyvin suurta.",
 			size: "Noin 35 cm, naakan kokoinen.",
 		},
 		imageUrl:
@@ -1603,7 +1601,7 @@ export const BIRDS: Bird[] = [
 				"Viljelysten pirstomilla metsäalueilla Etelä- ja Keski-Suomessa.",
 			sound: "Naukuva ”kiää” , jota närhi erehdyttävästi matkii.",
 			other:
-				"Euroopan runsaslukuisin petolintu luokitellaan Suomessa vaarantuneeksi. Ks. lisää muualla sivustossamme . Viikko 39",
+				"Euroopan runsaslukuisin petolintu luokitellaan Suomessa vaarantuneeksi. Ks. lisää muualla sivustossamme .",
 			size: "45–55 cm, siipiväli 110–130 cm, suurempi kuin varis.",
 		},
 		imageUrl:
@@ -1646,7 +1644,7 @@ export const BIRDS: Bird[] = [
 			sound:
 				"Laulu kaunis, verkkainen helisevä juoksutus, kutsuääni terävä tiksahdus.",
 			other:
-				"Yömuuttaja. Leutoina talvina Suomeen saattaa jäädä satoja punarintoja. Viikko 40",
+				"Yömuuttaja. Leutoina talvina Suomeen saattaa jäädä satoja punarintoja.",
 			size: "13–14 cm, talitiaisen kokoinen.",
 		},
 		imageUrl:
@@ -1686,7 +1684,7 @@ export const BIRDS: Bird[] = [
 				"Pesii rannikkoalueilla ja paikoin sisämaassa, muuttoaikoina suurin parvin Itä- ja Etelä-Suomessa.",
 			sound: "Nenäsointinen haukahtelu.",
 			other:
-				"Tulokaslaji, joka on pesinyt Suomessa 1980-luvun alusta lähtien. Aikaisemmin vain arktinen läpimuuttaja. Viikko 41",
+				"Tulokaslaji, joka on pesinyt Suomessa 1980-luvun alusta lähtien. Aikaisemmin vain arktinen läpimuuttaja.",
 			size: "60–70 cm, suurempi kuin sinisorsa.",
 		},
 		imageUrl:
@@ -1727,7 +1725,7 @@ export const BIRDS: Bird[] = [
 			sound:
 				"Räksyttävä ”krjä-krjä-krjäk” , laverteleva laulu koostuu räksyttävistä äänistä.",
 			other:
-				"Hyvinä pihlajanmarjavuosina räkättirastaat viipyvät meillä tavallista pitempään. Etelä-Suomessa voi silloin nähdä isoja parvia vielä joulu-tammikuussa. Viikko 42",
+				"Hyvinä pihlajanmarjavuosina räkättirastaat viipyvät meillä tavallista pitempään. Etelä-Suomessa voi silloin nähdä isoja parvia vielä joulu-tammikuussa.",
 			size: "Noin 25 cm, mustarastaan kokoinen.",
 		},
 		imageUrl:
@@ -1769,7 +1767,7 @@ export const BIRDS: Bird[] = [
 				"Pesii harvakseltaan Pohjois-Suomen havumetsissä, syksyllä ja talvella pihlajanmarjojen perässä kaikkialla Suomessa.",
 			sound: "Kirkas sirinä muistuttaa pienten tiukujen helinää.",
 			other:
-				"Tilhen maksa hajottaa hyvin tehokkaasti alkoholia, jota voi muodostua käyneisiin marjoihin. Viikko 43",
+				"Tilhen maksa hajottaa hyvin tehokkaasti alkoholia, jota voi muodostua käyneisiin marjoihin.",
 			size: "Noin 20 cm, kottaraisen kokoinen.",
 		},
 		imageUrl:
@@ -1809,7 +1807,7 @@ export const BIRDS: Bird[] = [
 			location: "Koko maassa saaristossa, rannikolla ja karuilla järvillä.",
 			sound: "Lentoääni löysä ”prää prää prää”.",
 			other:
-				"Syö kalaa ja muita vedeneläviä. Syksyllä ja talvella isot parvet voivat kalastaa ryhmässä ajamalla kaloja edellään. Ks. lisää muualla sivustossamme . Viikko 44",
+				"Syö kalaa ja muita vedeneläviä. Syksyllä ja talvella isot parvet voivat kalastaa ryhmässä ajamalla kaloja edellään. Ks. lisää muualla sivustossamme .",
 			size: "60–65 cm, suurempi kuin sinisorsa.",
 		},
 		imageUrl:
@@ -1851,7 +1849,7 @@ export const BIRDS: Bird[] = [
 				"Kuusivaltaisissa metsissä Etelä- ja Keski-Suomessa, Pohjois-Suomessa harvinainen.",
 			sound: "Soidinääni yksitoikkoinen harva vihellyssarja.",
 			other:
-				"Tulee talvella myös pihoihin, varastoi myyriä ja pikkulintuja luonnonkoloon tai kottaraispönttöön. Viikko 45",
+				"Tulee talvella myös pihoihin, varastoi myyriä ja pikkulintuja luonnonkoloon tai kottaraispönttöön.",
 			size: "Noin 17 cm, pienin pöllömme, pienempi kuin kottarainen.",
 		},
 		imageUrl:
@@ -1894,7 +1892,7 @@ export const BIRDS: Bird[] = [
 			sound:
 				"Laulu lyhyt ponnekas, vähän pajulintumainen säe. Kutsuääni korkea kirkas ”tiii”.",
 			other:
-				"Kiipeää ruokaa etsiessään puunrunkoa ylöspäin ja lennähtää sitten alemmas seuraavaan puuhun kiivetäkseen taas ylöspäin. Viikko 46",
+				"Kiipeää ruokaa etsiessään puunrunkoa ylöspäin ja lennähtää sitten alemmas seuraavaan puuhun kiivetäkseen taas ylöspäin.",
 			size: "Noin 13 cm, pienempi kuin talitiainen.",
 		},
 		imageUrl:
@@ -1936,7 +1934,7 @@ export const BIRDS: Bird[] = [
 			sound:
 				"Yleensä hiljainen. Pesimäaikana kimittävä, palokärkimäinen ”kji kji kji”.",
 			other:
-				"Käy laiskana saalistajana haaskoilla ja perkuujätteillä. Syö myös merimetsoja niiden yhdyskunnissa. Ahvenanmaan maakuntalintu. Viikko 47",
+				"Käy laiskana saalistajana haaskoilla ja perkuujätteillä. Syö myös merimetsoja niiden yhdyskunnissa. Ahvenanmaan maakuntalintu.",
 			size: "Noin 80–90 cm (siipiväli 2–2,4 m), suurin petolintumme.",
 		},
 		imageUrl:
@@ -1978,7 +1976,7 @@ export const BIRDS: Bird[] = [
 				"Metsissä ja soilla koko maassa Tunturi-Lappia lukuun ottamatta .Talvella koivikoissa.",
 			sound: "Soitimella kujertavaa pulinaa ja suhinaa.",
 			other:
-				"Keväällä koiraat kokoontuvat näyttävään ryhmäsoitimeen aukeille paikoille. Viikko 48",
+				"Keväällä koiraat kokoontuvat näyttävään ryhmäsoitimeen aukeille paikoille.",
 			size: "Noin 40–55 cm, variksen kokoinen.",
 		},
 		imageUrl:
@@ -2019,7 +2017,7 @@ export const BIRDS: Bird[] = [
 				"Koko maassa metsäalueilla, pohjoisimmassa Lapissa harvalukuinen.",
 			sound: "Kutsuääni käheä ”ti-ti-tsää-tsää-tsää”.",
 			other:
-				"Vähentynyt voimakkaasti, ja luokiteltiin siksi vuoden 2019 uhanalaisarvioinnissa erittäin uhanalaiseksi. Ks. lisää muualla sivustossamme . Viikko 49",
+				"Vähentynyt voimakkaasti, ja luokiteltiin siksi vuoden 2019 uhanalaisarvioinnissa erittäin uhanalaiseksi. Ks. lisää muualla sivustossamme .",
 			size: "Noin 12–13 cm, vähän pienempi kuin talitiainen.",
 		},
 		imageUrl:
@@ -2059,7 +2057,7 @@ export const BIRDS: Bird[] = [
 			location: "Etelä- ja Länsi-Suomessa kylissä ja kaupungeissa.",
 			sound: "Nenäsointinen ”kja-kjak” tai ”kjä-kjä”.",
 			other:
-				"Pesii luonnonkoloihin, rakennusten onkaloihin tai voimalinjapylväiden tukirakenteisiin. Kokoontuu suuriin yöpymisparviin. Varsinais-Suomen maakuntalintu. Viikko 50",
+				"Pesii luonnonkoloihin, rakennusten onkaloihin tai voimalinjapylväiden tukirakenteisiin. Kokoontuu suuriin yöpymisparviin. Varsinais-Suomen maakuntalintu.",
 			size: "Noin 33 cm, kesykyyhkyn kokoinen, pienempi kuin varis.",
 		},
 		imageUrl:
