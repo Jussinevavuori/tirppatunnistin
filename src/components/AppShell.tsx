@@ -1,27 +1,35 @@
+import cn from "cnfast";
+
 export type AppShellProps = {
+	header?: React.ReactNode;
 	children?: React.ReactNode;
+	footer?: React.ReactNode;
+	className?: string;
 };
 
 export function AppShell(props: AppShellProps) {
 	return (
-		<main
-			className="min-h-screen text-emerald-50"
-			style={{
-				background: `oklch(from var(--color-emerald-950) calc(l * 0.9) c h / 1)`,
-			}}
-		>
-			<div className="max-w-xl p-4 mx-auto flex flex-col gap-4 bg-emerald-950 min-h-screen">
+		<div className="relative min-h-screen flex flex-col px-4 py-2 max-w-2xl mx-auto">
+			<header
+				className="-mx-2 sticky top-2"
+				style={{ boxShadow: "4px 4px 0px rgba(0, 0, 0, 1)" }}
+			>
+				{props.header}
+			</header>
+			<main
+				className={cn(
+					"flex-1 py-16 overflow-y-auto overflow-x-hidden -mx-4 px-4",
+					props.className,
+				)}
+			>
 				{props.children}
-
-				<a
-					href="https://www.birdlife.fi/lintuharrastus/100lintulajia/opi-tuntemaan/"
-					target="_blank"
-					rel="noopener noreferrer"
-					className="text-sm opacity-50 text-center underline"
-				>
-					Lähde
-				</a>
-			</div>
-		</main>
+			</main>
+			<footer
+				className="-mx-2 sticky bottom-2"
+				style={{ boxShadow: "4px 4px 0px rgba(0, 0, 0, 1)" }}
+			>
+				{props.footer}
+			</footer>
+		</div>
 	);
 }
