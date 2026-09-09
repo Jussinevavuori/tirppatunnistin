@@ -23,7 +23,7 @@ export function BirdScreen() {
 		{ isCorrect: boolean; guessedName: string }[]
 	>([]);
 	const [bird, setBird] = useState(getRandomBird);
-	const [isCorrect, setIsCorrect] = useState<null | boolean>(true);
+	const [isCorrect, setIsCorrect] = useState<null | boolean>(null);
 	const [streak, setStreak] = useState(0); // TODO
 
 	return (

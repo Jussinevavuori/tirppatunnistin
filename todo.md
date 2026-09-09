@@ -9,4 +9,3 @@
 	- Show streaks for each bird
 	- Play again
 	- Return to home screen
-
