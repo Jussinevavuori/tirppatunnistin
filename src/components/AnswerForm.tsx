@@ -71,7 +71,7 @@ export function AnswerForm(props: AnswerFormProps) {
 					{options.map((option) => (
 						<button
 							key={option.id}
-							className="bg-white font-semibold border-2 px-4 h-10"
+							className="h-10 border-2 bg-white px-4 font-semibold"
 							type="button"
 							style={{ boxShadow: "4px 4px 0px rgba(0, 0, 0, 1)" }}
 							onClick={() =>
@@ -113,14 +113,14 @@ export function AnswerForm(props: AnswerFormProps) {
 						className="flex items-center gap-2"
 					>
 						<input
-							className="h-10 border-2 flex-1 px-4 outline-none focus:bg-yellow-500"
+							className="h-10 flex-1 border-2 px-4 outline-none focus:bg-yellow-500"
 							placeholder="Kirjoita tirpan nimi..."
 							value={guess}
 							onChange={(e) => setGuess(e.target.value)}
 							style={{ boxShadow: "4px 4px 0px rgba(0, 0, 0, 1)" }}
 						/>
 						<button
-							className="font-semibold border-2 px-4 h-10"
+							className="h-10 border-2 px-4 font-semibold"
 							type="submit"
 							style={{ boxShadow: "4px 4px 0px rgba(0, 0, 0, 1)" }}
 							disabled={!guess.trim()}
@@ -130,7 +130,7 @@ export function AnswerForm(props: AnswerFormProps) {
 					</form>
 					{levenshteinHint !== null && (
 						<div
-							className="bg-red-500 px-4 py-2 border-2"
+							className="border-2 bg-red-500 px-4 py-2"
 							style={{ boxShadow: "4px 4px 0px rgba(0, 0, 0, 1)" }}
 						>
 							Melkein! {levenshteinHint} kirjaimen päässä!

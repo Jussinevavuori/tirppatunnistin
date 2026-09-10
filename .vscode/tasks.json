@@ -1,0 +1,20 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "biome check",
+			"type": "shell",
+			"command": "bun biome check --write --unsafe",
+			"isBackground": true,
+			"problemMatcher": [],
+			"presentation": {
+				"echo": false,
+				"reveal": "never",
+				"focus": false,
+				"panel": "shared",
+				"showReuseMessage": true,
+				"clear": false
+			}
+		}
+	]
+}

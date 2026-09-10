@@ -26,7 +26,7 @@ export function BirdScreen() {
 	>([]);
 	const [bird, setBird] = useState(getRandomBird);
 	const [isCorrect, setIsCorrect] = useState<null | boolean>(null);
-	const [streak, setStreak] = useState(0); // TODO
+	const [streak, _setStreak] = useState(0); // TODO
 
 	function reset() {
 		setIsCorrect(null);
@@ -35,10 +35,10 @@ export function BirdScreen() {
 
 	return (
 		<AppShell
-			className="gap-4 flex flex-col"
+			className="flex flex-col gap-4"
 			header={
 				<Box>
-					<div className="flex items-center gap-2 justify-between">
+					<div className="flex items-center justify-between gap-2">
 						<div className="flex items-center gap-2">
 							<BirdIcon />
 							<p className="font-semibold">
@@ -58,13 +58,13 @@ export function BirdScreen() {
 				isCorrect === true ? (
 					<div className="flex flex-col gap-2">
 						{streak >= 2 && (
-							<Box className="bg-amber-500 flex-row items-center">
-								<div className="bg-amber-300 -skew-x-6 px-1 py-1">
+							<Box className="flex-row items-center bg-amber-500">
+								<div className="-skew-x-6 bg-amber-300 px-1 py-1">
 									<FlameIcon className="size-5 text-orange-600" />
 								</div>
-								<p className="font-medium space-x-1">
+								<p className="space-x-1 font-medium">
 									<span>Sama tirppa oikein</span>
-									<span className="bg-amber-300 text-orange-600 -skew-x-6 px-1 inline-block">
+									<span className="inline-block -skew-x-6 bg-amber-300 px-1 text-orange-600">
 										{streak}
 									</span>
 									<span>kertaa putkeen!</span>
@@ -73,14 +73,14 @@ export function BirdScreen() {
 						)}
 
 						<Box className="bg-emerald-500">
-							<p className="font-semibold text-2xl space-x-1">
-								<span className="bg-emerald-100 -skew-x-3 px-1 inline-block">
+							<p className="space-x-1 font-semibold text-2xl">
+								<span className="inline-block -skew-x-3 bg-emerald-100 px-1">
 									{bird.nameFi}
 								</span>{" "}
 								on oikein!
 							</p>
 
-							<p className="font-medium py-4">{bird.description.other}</p>
+							<p className="py-4 font-medium">{bird.description.other}</p>
 
 							<Button onClick={reset}>
 								Seuraava
@@ -92,9 +92,9 @@ export function BirdScreen() {
 					<Box className="bg-rose-500">
 						<p className="font-semibold text-2xl">Väärin!</p>
 
-						<p className="font-medium space-x-1 py-2">
+						<p className="space-x-1 py-2 font-medium">
 							<span>Oikea vastaus on</span>
-							<span className="bg-rose-100 -skew-x-3 px-1 inline-block">
+							<span className="inline-block -skew-x-3 bg-rose-100 px-1">
 								{bird.nameFi}
 							</span>
 						</p>
@@ -106,7 +106,7 @@ export function BirdScreen() {
 					</Box>
 				) : (
 					<Box>
-						<h1 className="font-bold tracking-tight text-xl text-center">
+						<h1 className="text-center font-bold text-xl tracking-tight">
 							Ken on tämä tirppa?
 						</h1>
 
@@ -130,8 +130,8 @@ export function BirdScreen() {
 
 			{isCorrect !== null ? (
 				<div className="flex flex-col gap-2 py-8">
-					<h1 className="font-bold tracking-tight text-4xl">{bird.nameFi}</h1>
-					<div className="flex items-center gap-2 flex-row">
+					<h1 className="font-bold text-4xl tracking-tight">{bird.nameFi}</h1>
+					<div className="flex flex-row items-center gap-2">
 						<p>{bird.nameSv}</p>
 						<p>·</p>
 						<p className="italic">({bird.scientificName})</p>
@@ -150,7 +150,7 @@ export function BirdScreen() {
 				<audio
 					key={bird.audioUrl}
 					controls
-					className="w-full rounded-none bg-white! border-2"
+					className="w-full rounded-none border-2 bg-white!"
 					style={{ boxShadow: "4px 4px 0px rgba(0, 0, 0, 1)" }}
 				>
 					<source src={bird.audioUrl} type="audio/mpeg" />

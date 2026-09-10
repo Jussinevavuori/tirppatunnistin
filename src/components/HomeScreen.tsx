@@ -15,11 +15,11 @@ export function HomeScreen() {
 
 	return (
 		<AppShell
-			className="flex flex-col items-center py-32 gap-16"
+			className="flex flex-col items-center gap-16 py-32"
 			footer={
 				<Link to="/bird">
 					<button
-						className="font-semibold w-full border-2 px-4 h-14 flex items-center justify-center bg-emerald-500"
+						className="flex h-14 w-full items-center justify-center border-2 bg-emerald-500 px-4 font-semibold"
 						type="button"
 						style={{ boxShadow: "4px 4px 0px rgba(0, 0, 0, 1)" }}
 					>
@@ -30,7 +30,7 @@ export function HomeScreen() {
 			}
 		>
 			<div
-				className="border-2 h-10 w-10 flex items-center justify-center"
+				className="flex h-10 w-10 items-center justify-center border-2"
 				style={{ boxShadow: "4px 4px 0px rgba(0, 0, 0, 1)" }}
 			>
 				<BirdIcon />
@@ -45,16 +45,16 @@ export function HomeScreen() {
 				>
 					Jussi Nevavuoren
 				</a>
-				<h1 className="font-bold tracking-tight text-5xl">Tirppatunnistin</h1>
+				<h1 className="font-bold text-5xl tracking-tight">Tirppatunnistin</h1>
 				<p className="font-medium">Opi tunnistamaan Suomen tirpat!</p>
 			</div>
 
 			<div
-				className="p-4 border-2 w-full flex items-center flex-col gap-4"
+				className="flex w-full flex-col items-center gap-4 border-2 p-4"
 				style={{ boxShadow: "4px 4px 0px rgba(0, 0, 0, 1)" }}
 			>
 				<p className="font-medium">Miten tänään pelataan, tirppabongari?</p>
-				<div className="flex items-center gap-4 w-full">
+				<div className="flex w-full items-center gap-4">
 					{ANSWER_MODES.map((mode) => (
 						<Button
 							key={mode}
@@ -72,7 +72,7 @@ export function HomeScreen() {
 
 			<a
 				href="https://www.birdlife.fi/lintuharrastus/100lintulajia/opi-tuntemaan/"
-				className="underline font-semibold text-blue-500"
+				className="font-semibold text-blue-500 underline"
 				target="_blank"
 				rel="noopener noreferrer"
 			>
