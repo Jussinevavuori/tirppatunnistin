@@ -1,11 +1,5 @@
-- Setup game to have 10 random birds
-	- 10 unique birds
-	- Ones with a higher streak appear less frequently
-- Save guesses
-  - In atom
-	- Sync to localStorage
-	- Parse streaks from guesses
-- End screen to show which birds you got right and which ones not
-	- Show streaks for each bird
-	- Play again
-	- Return to home screen
+- Setup game to have 10 random unique birds (higher streaks less frequent)
+- Save guesses (in atom, synced to local storage)
+- End screen to show which birds you got right and which ones not (streaks, play again, return to home screen)
+- Game mode to hide image
+- Get multiple images of birds

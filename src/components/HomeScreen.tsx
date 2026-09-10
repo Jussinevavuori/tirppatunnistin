@@ -8,6 +8,7 @@ import {
 	answerModeAtom,
 } from "#/store/answerModeAtom";
 import { AppShell } from "./AppShell";
+import { Button } from "./Button";
 
 export function HomeScreen() {
 	const answerMode = useAtom(answerModeAtom);
@@ -55,18 +56,16 @@ export function HomeScreen() {
 				<p className="font-medium">Miten tänään pelataan, tirppabongari?</p>
 				<div className="flex items-center gap-4 w-full">
 					{ANSWER_MODES.map((mode) => (
-						<button
+						<Button
 							key={mode}
 							className={cn(
-								"flex-1 font-semibold w-full border-2 px-4 h-14 flex items-center justify-center",
-								mode === answerMode ? "bg-emerald-500" : "bg-white",
+								"h-14",
+								mode === answerMode ? "bg-emerald-500" : "",
 							)}
-							type="button"
-							style={{ boxShadow: "4px 4px 0px rgba(0, 0, 0, 1)" }}
 							onClick={() => answerModeAtom.set(mode)}
 						>
 							{ANSWER_MODE_LABELS[mode]}
-						</button>
+						</Button>
 					))}
 				</div>
 			</div>
