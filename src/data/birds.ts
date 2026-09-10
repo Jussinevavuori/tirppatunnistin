@@ -34,6 +34,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/sinitiainen_petri-vainio-800x440.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Parus%20caeruleus1.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/ParusCaeruleus.jpg",
+			"https://www.miljolare.no/innsendt/bilder/39550/97360/6957f2b54d9ce/videocapture_20260102-170703.jpg",
+			"https://live.staticflickr.com/65535/55023298993_b172a78c07_b.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/sinitiainen-copyright-birdlife.mp3",
@@ -56,6 +60,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/talitiainen_pertti-rasp-800x445.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Great%20tit%20%28Parus%20major%29%2C%20Parc%20de%20Woluw%C3%A9%2C%20Brussels%20%2813042792905%29.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Kohlmeise27ib.jpg",
+			"https://www.miljolare.no/innsendt/bilder/39550/97360/6957f2dbd07b7/videocapture_20260102-165954.jpg",
+			"https://live.staticflickr.com/65535/55022932319_0e584e07d7_b.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/talitiainen-copyright-birdlife.mp3",
@@ -77,6 +85,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-harakka-micha-fager-800x490.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Eurasian%20magpie%202024%2003%2003%2002.jpg",
+			"https://www.miljolare.no/innsendt/bilder/39550/97360/6957f31577202/videocapture_20260102-105947.jpg",
+			"https://image.laji.fi/MM.3868434/20260102_111656.jpg",
+			"https://image.laji.fi/MM.3868435/Screenshot_20260102_113326_WhatsApp.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/harakka-copyright-birdlife.mp3",
@@ -98,11 +110,15 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-varis-petri-vainio-800x452.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Corvus%20cornix%20%2833515567265%29.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Corvus%20cornix%20in%20Locarno.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Flying%20Crow.jpg",
+			"https://live.staticflickr.com/65535/55020578482_885c3d4373_b.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/varis-copyright-birdlife.mp3",
 		id: "varis",
-		scientificName: "Corvus corone",
+		scientificName: "Corvus cornix",
 	},
 	{
 		nameFi: "Harmaapäätikka",
@@ -121,6 +137,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-harmaapaatikka-jyrki-makela-800x363.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/%D0%A1%D0%B5%D0%B4%D0%BE%D0%B9%20%D0%B4%D1%8F%D1%82%D0%B5%D0%BB.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Grey-headed%20Woodpecker%20-%20Italy%20S4E5692.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Picus%20canus%20%28%D0%A1%D0%B5%D0%B4%D0%BE%D0%B9%20%D0%B4%D1%8F%D1%82%D0%B5%D0%BB%29.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/604782234/original.jpg",
 		],
 		audioUrl:
 			"https://asiakas.kotisivukone.com/files/pirhonenj.kotisivukone.com/piccanrausong1903112.mp3",
@@ -142,6 +162,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-kapytikka-petri-vainio-800x423.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/%D0%94%D1%8F%D1%82%D0%B5%D0%BB%20%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%BF%D1%91%D1%81%D1%82%D1%80%D1%8B%D0%B9%20KR%2001.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Dendrocopos%20major%20EM1B2679%20%2835219263071%29.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/DendrocoposMajor.jpg",
+			"https://www.miljolare.no/innsendt/bilder/aktivitet/1323740/6957a4fe58e0a/20260102_113606.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/kapytikka-copyright-birdlife.mp3",
@@ -165,6 +189,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-pikkuvarpunen-petri-vainio-800x435.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Eurasian%20Tree%20Sparrow.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Eurasian%20Tree%20Sparrow%20%283352252620%29.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Tree-Sparrow-2009-16-02.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Tree%20Sparrow%20August%202007%20Osaka%20Japan.jpg",
 		],
 		audioUrl: "http://www.lintukuva.fi/aanet/pasmon.mp3",
 		id: "pikkuvarpunen",
@@ -185,6 +213,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-varpunen-micha-fager-800x477.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/House%20sparrow%20male%20in%20Prospect%20Park%20%2853532%29.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/House%20Sparrow%2C%20England%20-%20May%2009.jpg",
+			"https://live.staticflickr.com/65535/55023391284_70ecb6bf4c_b.jpg",
+			"https://live.staticflickr.com/65535/55023134471_5dc4541758_b.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/varpunen-copyright-birdlife.mp3",
@@ -207,6 +239,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-koskikara-pertti-rasp-800x443.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Cinclus%20cinclus%20bronwen%20y%20dwr.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Cinclus%20cinclus%20R%28ThKraft%29.jpg",
+			"https://live.staticflickr.com/65535/55067743337_cf216aeec4_b.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/605018273/original.jpg",
 		],
 		audioUrl: "http://www.lintukuva.fi/aanet/cincin.mp3",
 		id: "koskikara",
@@ -228,10 +264,14 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-kesykyyhky-micha-fager-800x445.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Feral%20pigeon%20%28Columba%20livia%20domestica%29%2C%202017-05-27.jpg",
+			"https://live.staticflickr.com/65535/55022549334_ebbd64c204_b.jpg",
+			"https://live.staticflickr.com/65535/55021408127_843e0e1eda_b.jpg",
+			"https://live.staticflickr.com/65535/55022475813_e8c1d077f7_b.jpg",
 		],
 		audioUrl: "http://www.lintukuva.fi/aanet/colliv.mp3",
 		id: "kesykyyhky",
-		scientificName: "Columba livia",
+		scientificName: "Columba livia f. domestica",
 	},
 	{
 		nameFi: "Keltasirkku",
@@ -250,6 +290,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-keltasirkku-micha-fager-1-800x415.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Emberiza%20citrinella%20-Midtjylland%2C%20Denmark%20-male-8.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Emberiza%20citrinella%20Oulu%20Finland%202020-09-14.jpg",
+			"https://www.miljolare.no/innsendt/bilder/68834/97364/69590a798e886/1000063596.jpg",
+			"https://www.miljolare.no/innsendt/bilder/68834/97364/69590a914fc8b/1000063601.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/keltasirkku-copyright-birdlife.mp3",
@@ -273,6 +317,9 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-viherpeippo-petri-vainio-1-800x390.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Carduelis%20chloris%20Oulu%2020120507.JPG",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Chloris%20chloris%20%28profile%29.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Chloris%20chloris%20chloris%20MHNT%20223%20Gouvieux.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/viherpeippo-copyright-birdlife.mp3",
@@ -296,6 +343,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-fasaani-micha-fager-800x319.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/00%204488%20H%C3%BChnervogel%20-%20Edelfasan.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/A%20monograph%20of%20the%20pheasants%20%2810052517376%29.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Fagiano%201.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Phasianus%20colchicus%20formosanus%2C%20Taipingxi%201.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/fasaani-copyright-birdlife.mp3",
@@ -318,6 +369,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-sinisorsa-pertti-rasp-1-800x335.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Anas%20platyrhynchos%20%28mixed%20pair%29%20%2832428014687%29.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Anas%20platyrhynchos%20near%20City%20Lake%2C%20Ivano-Frankivsk.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Male%20mallard3.jpg",
+			"https://live.staticflickr.com/65535/55019502282_9133a5b2ef_b.jpg",
 		],
 		audioUrl: "http://www.lintukuva.fi/aanet/anapla.mp3",
 		id: "sinisorsa",
@@ -339,6 +394,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-toyhtotiainen-petri-vainio-1-800x468.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Lophophanes%20cristatus%20-%2001.jpg",
+			"https://live.staticflickr.com/65535/55017573251_7356444d06_b.jpg",
+			"https://live.staticflickr.com/65535/55017843804_6942772279_b.jpg",
+			"https://live.staticflickr.com/65535/55019841940_514f7e7929_b.jpg",
 		],
 		audioUrl: "http://www.birdphoto.fi/aanet/parcri.mp3",
 		id: "toyhtotiainen",
@@ -360,6 +419,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-harmaalokki-hannu-kekkonen-1-800x577.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Larus%20argentatus01.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/European%20herring%20gull%20vocalizing%20%2800170%29.jpg",
+			"https://www.miljolare.no/innsendt/bilder/aktivitet/1323626/69565f26d797a/gramaker.jpg",
+			"https://www.miljolare.no/innsendt/bilder/68834/97366/695a41c62cd0c/20260104_105641.jpg",
 		],
 		audioUrl: "http://www.birdphoto.fi/aanet/lararg.mp3",
 		id: "harmaalokki",
@@ -382,6 +445,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-mustarastas-petri-vainio-pasi-parkkinen-800x351.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Amselm%C3%A4nnchen%20der%20Unterart%20T.%20m.%20azorensis%20auf%20Terceira.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/20190722%20Turdus%20Merula%2002.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Female%20Blackbird.jpg",
+			"https://www.miljolare.no/innsendt/bilder/39550/97360/6957f2a05a76b/videocapture_20260102-171638.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/mustarastas-copyright-birdlife.mp3",
@@ -404,6 +471,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-palokarki-micha-fager-800x579.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/BlackWoods.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/2016.08.27.-14-Viernheimer%20Heide-Viernheim--Schwarzspecht-Weibchen.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Black%20Woodpecker%20Dryocopus%20martius.jpg",
+			"https://live.staticflickr.com/65535/55023144803_416f581b84_b.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/palokarki-copyright-birdlife.mp3",
@@ -426,6 +497,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-helmipollo-micha-fager-800x456.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Aegolius-funereus-001.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/605376295/original.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/608357578/original.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/608357587/original.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/helmipollo-copyright-birdlife.mp3",
@@ -449,6 +524,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-lehtopollo-micha-fager-800x462.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Strix%20aluco%20aluco.jpg",
+			"https://live.staticflickr.com/65535/55023497330_c6d74cbec9_b.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/605055267/original.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/604719819/original.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/lehtopollo-copyright-birdlife.mp3",
@@ -471,6 +550,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-kiuru_micha-fager-800x380.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Alouette%20des%20champs%20Zaghouan001.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/605191131/original.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/605528941/original.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/605191097/original.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/kiuru-copyright-birdlife.mp3",
@@ -494,6 +577,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-toyhtohyyppa_micha-fager-800x470.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Northern-Lapwing-Vanellus-vanellus.jpg",
+			"https://live.staticflickr.com/65535/55023021681_e2fa9cf919_b.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/604822107/original.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/604822133/original.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/toyhtohyyppa-copyright-birdlife.mp3",
@@ -516,6 +603,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-pulmunen_pertti-rasp-800x328.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Plectrophenax%20nivalis%20P3130099.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/605353054/original.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/605353053/original.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/605468624/original.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/pulmunen-copyright-birdlife.mp3",
@@ -539,6 +630,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-telkka_hannu-eskonen-800x438.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Common%20Goldeneye.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Common%20Goldeneye%20%28Bucephala%20clangula%29-%20female.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Common%20Goldeneye%20%28Bucephala%20clangula%29.jpg",
+			"https://live.staticflickr.com/65535/55016814887_ea5d6bc071_b.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/telkka-copyright-birdlife.mp3",
@@ -562,6 +657,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-kyhmyjoutsen-pertti-rasp-800x413.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Mute%20Swan%20Emsworth2.JPG",
+			"https://live.staticflickr.com/65535/55017583442_90740f18fa_b.jpg",
+			"https://live.staticflickr.com/65535/55018642408_b682c1cd81_b.jpg",
+			"https://live.staticflickr.com/65535/55017583587_7a035f6851_b.jpg",
 		],
 		audioUrl: "http://www.lintukuva.fi/aanet/cygolo.mp3",
 		id: "kyhmyjoutsen",
@@ -583,6 +682,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-laulujoutsen-pertti-rasp-1-800x310.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Cygnus%20cygnus%20070416%20IOL.jpg",
+			"https://live.staticflickr.com/65535/55020755462_9d5e0cb3c8_b.jpg",
+			"https://live.staticflickr.com/65535/55019594583_ec4b8f5165_b.jpg",
+			"https://live.staticflickr.com/65535/55019676819_b2aaeffd7a_b.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/laulujoutsen-copyright-birdlife.mp3",
@@ -605,6 +708,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-vastarakki-pertti-rasp-1-800x278.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/20180415%20015%20Winterswijk%20Witte%20kwikstaart%20%2840785272624%29.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/White%20wagtail%20female%20first%20summer.jpg",
+			"https://live.staticflickr.com/65535/55016684737_88dcca02bd_b.jpg",
+			"https://live.staticflickr.com/65535/55022271402_71803a3c68_b.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/vastarakki-copyright-birdlife.mp3",
@@ -628,6 +735,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-kottarainen-micha-fager-1-800x430.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Common%20Starling%2C%20Blyth%20%2812598795653%29.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Toulouse%20-%20Sturnus%20vulgaris%20-%202012-02-26%20-%202.jpg",
+			"https://live.staticflickr.com/65535/55083569145_f5d777f5c7_b.jpg",
+			"https://live.staticflickr.com/65535/55024271070_91730e4182_b.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/kottarainen-copyright-birdlife.mp3",
@@ -650,6 +761,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-merihanhi-pertti-rasp-800x406.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/00%203688%20Graugans%20%28Anser%20anser%29.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Greylag%20Goose%20%28Anser%20anser%29%20%2851169983175%29.jpg",
+			"https://live.staticflickr.com/65535/55019455891_6226bee711_b.jpg",
+			"https://live.staticflickr.com/65535/55021963070_d24ce87557_b.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/merihanhi-copyright-birdlife.mp3",
@@ -672,6 +787,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-metsahanhi-petri-vainio-2-800x397.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Anser%20fabalis%20fabalis%20%28Taiga%20Bean%20Goose%29%2C%20Naturschutzgebiet%20Schellbruch%2C%20L%C3%BCbeck%2C%20Germany.jpg",
+			"https://live.staticflickr.com/65535/55019596166_0584763fb6_b.jpg",
+			"https://live.staticflickr.com/65535/55019860939_c8f5e78420_b.jpg",
+			"https://live.staticflickr.com/65535/55019778193_a41aa567bc_b.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/metsahanhi-copyright-birdlife.mp3",
@@ -695,6 +814,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-metso-pertti-rasp-petri-vainio-800x363.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Auerhuhn%20Schweden%20P1130026.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Tetrao%20urogallus%2C%20Glenfeshie%2C%20Scotland%201.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/605156752/original.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/604503222/original.jpg",
 		],
 		audioUrl: "http://www.lintukuva.fi/aanet/teturo.mp3",
 		id: "metso",
@@ -716,6 +839,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-kurki-pekka-komi-800x394.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/2017.07.04.-01-Wendisch%20Rietz--Kranich.jpg",
+			"https://live.staticflickr.com/65535/55021536100_21d861a77c_b.jpg",
+			"https://live.staticflickr.com/65535/55019515771_3c96d50f69_b.jpg",
+			"https://live.staticflickr.com/65535/55027459260_ef590dfb5e_b.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/kurki-copyright-birdlife.mp3",
@@ -739,6 +866,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-jarripeippo-pertti-rasp-micha-fager-800x351.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Fringilla%20montifringilla%20-Poland%20-male-8.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Fringilla%20montifringilla%202%20%28Marek%20Szczepanek%29.jpg",
+			"https://live.staticflickr.com/65535/55021542445_36ccb53aeb_b.jpg",
+			"https://live.staticflickr.com/65535/55021542625_8ca0570c97_b.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/jarripeippo-copyright-birdlife.mp3",
@@ -761,6 +892,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-peippo-pekka-komi-micha-fager-800x335.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Fringilla%20coelebs%20chaffinch%20male%20edit2.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Fringilla%20coelebs%20%285577610542%29.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Fulda%20Buchfinkweibchen%20Juni%202012.JPG",
+			"https://live.staticflickr.com/65535/55023301083_6b62031077_b.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/peippo-copyright-birdlife.mp3",
@@ -783,6 +918,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-taivaanvuohi-pekka-komi-800x449.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Gallinago%20gallinago%20a1.JPG",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Bekassine%20%28Blick%20nach%20oben%29.jpg",
+			"https://live.staticflickr.com/65535/55019141820_e24903eee4_b.jpg",
+			"https://live.staticflickr.com/65535/55083406273_f681b40699_b.jpg",
 		],
 		audioUrl: "http://www.lintukuva.fi/aanet/galgal.mp3",
 		id: "taivaanvuohi",
@@ -804,10 +943,14 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-suokukko-micha-fager-800x442.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Philomachus%20pugnaxRuffKampfl%C3%A4ufer.JPG",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Ruff%2C%20Philomachus%20pugnax%2C%20at%20Marievale%20Nature%20Reserve%2C%20Gauteng%2C%20South%20Africa%20%2821014304581%29.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Wiki-erimakisigi.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/604773895/original.jpg",
 		],
 		audioUrl: "",
 		id: "suokukko",
-		scientificName: "Philomachus pugnax",
+		scientificName: "Tringa pugnax",
 	},
 	{
 		nameFi: "Alli",
@@ -825,6 +968,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-alli-micha-fager-800x441.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Long-tailed-duck.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Clangula-hyemalis-011.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/606371439/original.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/606371444/original.jpg",
 		],
 		audioUrl: "http://www.lintukuva.fi/aanet/clahye.mp3",
 		id: "alli",
@@ -847,6 +994,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-haahka-petri-vainio-800x465.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Common%20eider%20female%20at%20Jones%20Beach%20%2804713%29.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Somateria%20mollissima%20male..jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/604940421/original.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/604940424/original.jpg",
 		],
 		audioUrl: "http://www.lintukuva.fi/aanet/sommol.mp3",
 		id: "haahka",
@@ -868,6 +1019,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-kirjosieppo-micha-fager-800x403.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Ficedula%20hypoleuca%20-Wood%20of%20Cree%20Nature%20Reserve%2C%20Scotland%20-male-8a.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Trauerschn%C3%A4pper%20%28Ficedula%20hypoleuca%29%2C%20Weibchen.jpg",
+			"https://live.staticflickr.com/65535/55045717493_109dc2e81e_b.jpg",
+			"https://live.staticflickr.com/65535/55060664999_9c96f75d59_b.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/kirjosieppo-copyright-birdlife.mp3",
@@ -890,6 +1045,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-pajulintu-micha-fager-800x420.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Willow%20Warbler%20Phylloscopus%20trochilus.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/605674403/original.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/608172925/original.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/611854909/original.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/pajulintu-copyright-birdlife.mp3",
@@ -912,6 +1071,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-lehtokerttu-micha-fager-800x431.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Sylvia%20borin%20%28%C3%96rebro%20County%29.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/702633396/original.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/702633406/original.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/702633371/original.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/lehtokerttu-copyright-birdlife.mp3",
@@ -935,6 +1098,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-satakieli-micha-fager-800x446.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Luscinia%20luscinia%20vogelartinfo%20chris%20romeiks%20CHR3635.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Nightingale%20of%20ancient%20Uglich.JPG",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/629693452/original.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/629693510/original.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/satakieli-copyright-birdlife.mp3",
@@ -957,6 +1124,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/leppalintu-pr-mf-800x365.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Gartenrotschwanz%201.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Phoenicurus%20phoenicurus%20female.jpg",
+			"https://live.staticflickr.com/65535/55045557516_aee7d65429_b.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/607680560/original.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/leppalintu-copyright-birdlife.mp3",
@@ -978,6 +1149,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/lussve-mf-800x500.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Bl%C3%A5hake%20-%20bluethroat%20%28Luscinia%20svecica%29-5%20-%20Flickr%20-%20Ragnhild%20%26%20Neil%20Crawford.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Bl%C3%A5hake%20Bluethroat%20%2820162398078%29.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/605461359/original.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/605017525/original.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/sinirinta-copyright-birdlife.mp3",
@@ -1001,11 +1176,15 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/06/viitakerttunen-fager-micha-800x591.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Blyth%27s%20Reed%20Warbler%20in%20Baruipur%20December%202024%20by%20Tisha%20Mukherjee%2002.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/604376654/original.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/604376672/original.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/604805580/original.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/viitakerttunen-copyright-birdlife.mp3",
 		id: "viitakerttunen",
-		scientificName: "Acrocephalus schoenobaenus",
+		scientificName: "Acrocephalus dumetorum",
 	},
 	{
 		nameFi: "Ruokokerttunen",
@@ -1024,11 +1203,15 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/06/ruokokerttunen-vainio-petri-800x553.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Acrocephalus%20schoenobaenus%201%20%28Marek%20Szczepanek%29-2.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Acrocephalus%20schoenobaenus%20-Sweden-8%20%281%29.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/610977589/original.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/612400118/original.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/ruokokerttunen-copyright-birdlife.mp3",
 		id: "ruokokerttunen",
-		scientificName: "Acrocephalus palustris",
+		scientificName: "Acrocephalus schoenobaenus",
 	},
 	{
 		nameFi: "Kalatiira",
@@ -1046,6 +1229,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/06/kalatiira-vainio-petri-800x592.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Common%20tern%202025%2007%2008%2008.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/604736164/original.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/605636556/original.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/605523237/original.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/kalatiira-copyright-birdlife.mp3",
@@ -1069,6 +1256,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/06/ruisraakka-fager-micha-800x580.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Corncrake2.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/CrexCrex.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/609193826/original.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/609193827/original.jpg",
 		],
 		audioUrl: "http://www.lintukuva.fi/aanet/crecre.mp3",
 		id: "ruisraakka",
@@ -1091,6 +1282,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/06/kaki-rasp-pertti.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Cuculus%20canorus%20vogelartinfo%20chris%20romeiks%20CHR0791%20cropped.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Cuculus%20canorus2.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/610332875/original.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/610332876/original.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/kaki-copyright-birdlife.mp3",
@@ -1113,6 +1308,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/06/kuovi-fager-micha.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Eurasian%20Curlew.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/604749913/original.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/605104230/original.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/605104233/original.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/kuovi-copyright-birdlife.mp3",
@@ -1136,11 +1335,15 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/07/liro-fager-micha.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Wood%20Sandpiper%20%2850206067826%29%2C%20crop.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/605082126/original.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/605059228/original.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/604439844/original.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/liro-copyright-birdlife.mp3",
 		id: "liro",
-		scientificName: "Tringa nebularia",
+		scientificName: "Tringa glareola",
 	},
 	{
 		nameFi: "Rantasipi",
@@ -1157,6 +1360,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/07/rantasipi-fager-micha.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Actitis%20hypoleucos%20-%20Laem%20Pak%20Bia.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Common%20sandpiper%20lake%20geneva-4.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/605100900/original.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/605083816/original.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/rantasipi-copyright-birdlife.mp3",
@@ -1179,6 +1386,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/07/silkkiuikku-vainio-petri-800x551.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Great%20Crested%20Grebe%20%2852909695022%29.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Great%20Crested%20Grebe%20carries%20her%20chick%20on%20her%20back.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Podiceps%20cristatus%20%28eating%20crab%29.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/604390391/original.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/silkkiuikku-copyright-birdlife.mp3",
@@ -1202,6 +1413,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/07/kuikka-vainio-petri-800x588.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Gavia%20arctica1.jpg",
+			"https://live.staticflickr.com/65535/55022231447_a07d111d64_b.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/605110769/original.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/605110785/original.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/kuikka-copyright-birdlife.mp3",
@@ -1225,6 +1440,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-naurulokit-micha-fager-800x372.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Black-headed%20Gull%20-%20St%20James%27s%20Park%2C%20London%20-%20Nov%202006.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Lachm%C3%B6we%20Chroicocephalus%20ridibundus.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Black-headed%20gull%20%2805557%29.jpg",
+			"https://live.staticflickr.com/65535/55022946590_46d0a0954b_b.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/naurulokki-copyright-birdlife.mp3",
@@ -1246,6 +1465,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-kalalokki-micha-fager-800x486.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Larus%20canus%20Common%20Gull%20in%20Norway.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Larus%20canus%20in%20S%C3%B6dra%20Hammarbyhamnen%2C%20Stockholm.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Sturmm%C3%B6we%20-%20Auenlandschaft%20Hohenrode%20HA%20222%20Landkreis%20Schaumburg.jpg",
+			"https://live.staticflickr.com/65535/55023403825_a0e94a9022_b.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/kalalokki-copyright-birdlife.mp3",
@@ -1268,6 +1491,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-raystaspaasky_petri-vainio-800x364.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Delichon%20urbica.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Delichon%20urbicum%2010.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Delichon%20urbicum%20in%20Carinthia%2004.JPG",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/608168552/original.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/raystaspaasky-copyright-birdlife.mp3",
@@ -1289,6 +1516,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-haarapaasky_micha-fager-800x399.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Barn%20Swallow%20%2895504589%29.jpeg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Hirundo-rustica-001.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Rauchschwalbe%20Hirundo%20rustica.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/605022402/original.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/haarapaasky-copyright-birdlife.mp3",
@@ -1311,6 +1542,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-tervapaasky_juyssi-vakkala-800x490.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Common%20Swift%202025%2007%2018%2002%20%28cropped%29.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/636454412/original.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/636454408/original.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/636454388/original.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/tervapaasky-copyright-birdlife.mp3",
@@ -1334,6 +1569,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-saaksi-micha-fager-800x511.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Balbuzard%20pecheur%20Lac%20de%20Tunis.jpg",
+			"https://live.staticflickr.com/65535/55019684135_408620301c_b.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/605190659/original.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/605190670/original.jpg",
 		],
 		audioUrl: "",
 		id: "saaksi",
@@ -1356,6 +1595,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-metsakirvinen-micha-fager-800x447.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/2015-04-21%20Anthus%20trivialis%2C%20Abernethy%20Forest%201.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Anthus%20trivialis%20%2840810566815%29.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/605636440/original.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/607630181/original.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/metsakirvinen-copyright-birdlife.mp3",
@@ -1379,6 +1622,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-keltavastarakki-koiras-micha-fager-800x451.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Schafstelze%20-%20Auenlandschaft%20Hohenrode%20HA%20222%20Landkreis%20Schaumburg.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Wiesenschafstelze.JPG",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/604769856/original.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/605641763/original.jpg",
 		],
 		audioUrl: "http://www.lintukuva.fi/aanet/motfla.mp3",
 		id: "keltavastarakki",
@@ -1400,6 +1647,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-tavi-hannu-eskonen-pekka-komi-k-800x364.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Common%20Teal%20Male%20%288602525826%29.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Eurasian%20Teal%20Anas%20crecca%2C%20RSPB%20Titchwell%2C%20Norfolk%20%2833675784246%29.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Krickente.jpg",
+			"https://live.staticflickr.com/65535/55019703675_727a2ee180_b.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/tavi-copyright-birdlife.mp3",
@@ -1421,11 +1672,15 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-haapana-petri-vainio-pekka-komi-pk-800x484.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/1994.%20%D0%9C%D0%B0%D1%80%D0%BA%D0%B0%20%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B8%200170%20hi.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Wigeon%20%28Anas%20penelope%29%20%281%29.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Eurasian%20Wigeon%20-%20male.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Mareca%20penelope%20female%20s2.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/haapana-copyright-birdlife.mp3",
 		id: "haapana",
-		scientificName: "Anas penelope",
+		scientificName: "Mareca penelope",
 	},
 	{
 		nameFi: "Merimetso",
@@ -1442,6 +1697,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-merimetso-pertti-rasp-800x455.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/2021-05-05%20Phalacrocorax%20carbo%20carbo%2C%20Killingworth%20Lake%2C%20Northumberland%201-2.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Great%20Cormorant%20%28189165133%29.jpeg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Phalacrocorax%20carbo%20%2839763297602%29.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Phalacrocorax%20carbo%20Vic.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/merimetso-copyright-birdlife.mp3",
@@ -1464,6 +1723,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-harmaahaikara-micha-fager-800x420.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Ardea%20cinerea%20EM1A2714%20%2827349354381%29.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Baden-Baden%2010-2015%20img14%20Hector%20Berlioz%20Park%20Grey%20heron.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Kerkini%20lake%20in%20May%2001.jpg",
+			"https://live.staticflickr.com/65535/55020838326_85f5890bf5_b.jpg",
 		],
 		audioUrl: "http://www.lintukuva.fi/aanet/ardcin.mp3",
 		id: "harmaahaikara",
@@ -1484,6 +1747,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-harmaasieppo-pertti-rasp-800x392.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/SpottedFlycatcheronfence.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/604831183/original.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/604724397/original.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/604714364/original.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/harmaasieppo-copyright-birdlife.mp3",
@@ -1507,6 +1774,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-tiltaltti-pekka-komi-800x418.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Common%20Chiffchaff%202025%2004%2004%2001.jpg",
+			"https://live.staticflickr.com/65535/55018642202_49dc3a47f9_b.jpg",
+			"https://live.staticflickr.com/65535/55085163688_179fff1392_b.jpg",
+			"https://live.staticflickr.com/65535/55085329045_c0124324d3_b.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/tiltaltti-copyright-birdlife.mp3",
@@ -1528,6 +1799,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-tuulihaukka-micha-fager-800x419.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Common%20kestrel%20falco%20tinnunculus.jpg",
+			"https://live.staticflickr.com/65535/55023915963_110a0ba308_b.jpg",
+			"https://live.staticflickr.com/65535/55017015697_437786d38a_b.jpg",
+			"https://live.staticflickr.com/65535/55021648650_7944286c21_b.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/tuulihaukka-copyright-birdlife.mp3",
@@ -1550,6 +1825,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-varpushaukka-pekka-komi-micha-fager-800x419.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Accipiter%20nisus%20Meneer%20Zjeroen.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Sperber%20%28Accipiter%20nisus%29%20male%20-20200308%20%282%29.JPG",
+			"https://live.staticflickr.com/65535/55019523160_ac10c7e910_b.jpg",
+			"https://live.staticflickr.com/65535/55017453473_407d476f63_b.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/varpushaukka-marc-anderson-xeno-canto-cc.mp3",
@@ -1573,6 +1852,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/09/100-pajusirkku-micha-fager-pertti-rasp-k.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/2014-06-01%20Emberiza%20schoeniclus%2C%20Swallow%20Pond%2C%20Northumberland%201.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Bruant%20des%20roseaux.jpg",
+			"https://live.staticflickr.com/65535/55023707394_afcc8d527d_b.jpg",
+			"https://live.staticflickr.com/65535/55023452241_93497a87f8_b.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/pajusirkku-copyright-birdlife.mp3",
@@ -1595,6 +1878,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/09/100-hippiainen-micha-fager.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Regulus%20regulus%20-Marwell%20Wildlife%2C%20Hampshire%2C%20England-8.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Goldcrest%201.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Goldcrest%20%28Regulus%20regulus%29%20%2815954267973%29.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Regulus%20regulus%20japonensis.JPG",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/hippiainen-copyright-birdlife.mp3",
@@ -1616,6 +1903,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/09/100-sepelkyyhky-micha-fager.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Columba%20palumbus%20ssp.%20palumbus.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Columba%20palumbus%20-garden%20post-8.jpg",
+			"https://live.staticflickr.com/65535/55023435440_ab7855fdb4_b.jpg",
+			"https://live.staticflickr.com/65535/55017675496_354329fc90_b.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/sepelkyyhky-copyright-birdlife.mp3",
@@ -1639,11 +1930,15 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/09/100-narhi-pekka-komi.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Garrulus%20glandarius%201%20Luc%20Viatour.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Garrulus%20glandarius%20-%20Eurasian%20Jay%2001.jpg",
+			"https://live.staticflickr.com/65535/55018105022_8d57760379_b.jpg",
+			"https://live.staticflickr.com/65535/55017480265_0da359fb05_b.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/narhi-copyright-birdlife.mp3",
 		id: "narhi",
-		scientificName: "Nucifraga caryocatactes",
+		scientificName: "Garrulus glandarius",
 	},
 	{
 		nameFi: "Piekana",
@@ -1660,6 +1955,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-piekana-pekka-komi-800x384.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Buteo%20lagopus%2029283.JPG",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/604757344/original.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/604757356/original.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/605365643/original.jpg",
 		],
 		audioUrl: "http://www.lintukuva.fi/aanet/butlag.mp3",
 		id: "piekana",
@@ -1681,11 +1980,15 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-hiirihaukka-micha-fager-pekka-komi-800x401.jpg",
+			"https://live.staticflickr.com/65535/55017344696_04f82404f4_b.jpg",
+			"https://live.staticflickr.com/65535/55078810843_dc0e9cf378_b.jpg",
+			"https://live.staticflickr.com/65535/55023378654_8c47c709df_b.jpg",
+			"https://live.staticflickr.com/65535/55023785444_58a08acc7a_b.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/hiirihaukka-janne-bruun-xeno-canto-cc.mp3",
 		id: "hiirihaukka",
-		scientificName: "Circus cyaneus",
+		scientificName: "Buteo buteo",
 	},
 	{
 		nameFi: "Vihervarpunen",
@@ -1703,6 +2006,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-vihervarpunen-micha-fager-800x420.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Carduelis%20spinus%20male.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Eurasian%20siskin%20%28Spinus%20spinus%29%20female%20Biebrzanski.jpg",
+			"https://live.staticflickr.com/65535/55019784319_a0d3e8fc96_b.jpg",
+			"https://live.staticflickr.com/65535/55020966537_fe728a8635_b.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/vihervarpunen-copyright-birdlife.mp3",
@@ -1726,6 +2033,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-punarinta-micha-fager-800x437.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Erithacus%20rubecula%20with%20cocked%20head.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/European%20robin%20%28Erithacus%20rubecula%29%20juvenile.jpg",
+			"https://www.miljolare.no/innsendt/bilder/39550/97360/6957f2fc2e0dc/videocapture_20260102-171324.jpg",
+			"https://live.staticflickr.com/65535/55022647247_e96641313b_b.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/punarinta-copyright-birdlife.mp3",
@@ -1747,6 +2058,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-kanadanhanhi-pekka-komi-800x455.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Bernaches%20du%20Canada%2002.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Canada%20Geese%20-%20Flickr%20-%20treegrow.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/La%20Roche-en-Ardenne%20-%20Bernache%20du%20Canada%2C%20Branta%20canadensis.jpg",
+			"https://live.staticflickr.com/65535/55019637668_6514044b72_b.jpg",
 		],
 		audioUrl: "http://www.lintukuva.fi/aanet/bracan.mp3",
 		id: "kanadanhanhi",
@@ -1768,6 +2083,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-valkoposkihanhi-jussi-vakkala-800x435.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Branta%20leucopsis%20-standing%20in%20a%20field-8.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Barnacle%20goose%20%28Branta%20leucopsis%29.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Branta%20leucopsis.jpg",
+			"https://live.staticflickr.com/65535/55023924008_d82b9ce21f_b.jpg",
 		],
 		audioUrl: "http://www.lintukuva.fi/aanet/braleu.mp3",
 		id: "valkoposkihanhi",
@@ -1789,6 +2108,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-punakylkirastas-micha-fager-800x450.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Redwing%20Turdus%20iliacus.jpg",
+			"https://www.miljolare.no/innsendt/bilder/aktivitet/1323701/69569c4c4c05c/20260101_152836.jpg",
+			"https://live.staticflickr.com/65535/55018571825_405bc71f73_b.jpg",
+			"https://live.staticflickr.com/65535/55028501106_77c55761f5_b.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/punakylkirastas-copyright-birdlife.mp3",
@@ -1811,6 +2134,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-rakattirastas-micha-fager-800x405.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Bj%C3%B6rktrast%20%28Turdus%20pilaris%29-4.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Grive%20litorne.jpg",
+			"https://live.staticflickr.com/65535/55023939961_4e98332c8c_b.jpg",
+			"https://live.staticflickr.com/65535/55024194164_098b273ed9_b.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/rakattirastas-copyright-birdlife.mp3",
@@ -1833,6 +2160,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-isolepinkainen_micha-fager-800x340.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Lanius%20excubitor%201%20%28Marek%20Szczepanek%29.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Great%20Grey%20Shrike%20in%20Bhigwan%20August%202025%20by%20Tisha%20Mukherjee%2002.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Lanius%20excubitor%20elegans%20MHNT.ZOO.2010.11.232.1.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/605056235/original.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/isolepinkainen-copyright-birdlife.mp3",
@@ -1855,6 +2186,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-tilhi-micha-fager-800x420.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Bohemian%20waxwing%20%28Bombycilla%20garrulus%29%2C%20Uitkerke%2C%20Belgium%20%2816366736689%29.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Bombycilla%20garrulus%2C%20Novosibirsk%201.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/605316502/original.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/604841934/original.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/tilhi-copyright-birdlife.mp3",
@@ -1876,11 +2211,15 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2016/05/100-tukkasotka-micha-fager-800x382.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Tufted%20Duck%2009%2005%202025%2002.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Tufted%20Duck%2009%2005%202025%2001.jpg",
+			"https://live.staticflickr.com/65535/55085183363_448cce222e_b.jpg",
+			"https://live.staticflickr.com/65535/55021918317_725dfa66de_b.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/tukkasotka-copyright-birdlife.mp3",
 		id: "tukkasotka",
-		scientificName: "Melanitta fusca",
+		scientificName: "Aythya fuligula",
 	},
 	{
 		nameFi: "Isokoskelo",
@@ -1897,6 +2236,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-isokoskelo-micha-fager-800x345.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Female%20Mergus%20merganser%20americanus%20at%20Las%20Gallinas%20Wildlife%20Ponds.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Mergus%20merganser%20-Sandwell%20-England%20-male-8.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Mergus%20merganser%20juv%20Algonquin%20Tea%20Lake.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Mergus%20merganser%20m.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/isokoskelo-copyright-birdlife.mp3",
@@ -1919,11 +2262,15 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-hiiripollo-pertti-rasp-800x482.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Surnia-ulula-002.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/605054878/original.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/604977165/original.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/605380971/original.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/hiiripollo-eero-patsi-xeno-canto-cc.mp3",
 		id: "hiiripollo",
-		scientificName: "Asio otus",
+		scientificName: "Surnia ulula",
 	},
 	{
 		nameFi: "Varpuspöllö",
@@ -1941,6 +2288,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-varpuspollo-pertti-rasp-800x466.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Eurasian%20pygmy%20owl%20%28Glaucidium%20passerinum%29%20Bia%C5%82owieza.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/605393002/original.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/605334539/original.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/605369708/original.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/varpuspollo-antero-lindholm-xeno-canto-cc.mp3",
@@ -1963,11 +2314,15 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-kuukkeli-micha-fager-800x415.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Siberian%20Jay%20Kittila%2020100312.jpg",
+			"https://www.artsobservasjoner.no/MediaLibrary/2026/1/9cf8b3da-0d6f-47eb-b28c-916f09209fb8_image.jpg",
+			"https://www.artsobservasjoner.no/MediaLibrary/2026/1/6e90f6b7-b98f-4fcc-add7-e78e229ab58e_image.jpg",
+			"https://www.artsobservasjoner.no/MediaLibrary/2026/1/ede64b3a-4866-4d3e-9c23-f77e9c0bdb1b_image.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/kuukkeli-copyright-birdlife.mp3",
 		id: "kuukkeli",
-		scientificName: "Coracias garrulus",
+		scientificName: "Perisoreus infaustus",
 	},
 	{
 		nameFi: "Puukiipijä",
@@ -1986,6 +2341,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-puukiipija-jyrki-makela-800x469.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/%D0%9E%D0%B1%D1%8B%D0%BA%D0%BD%D0%BE%D0%B2%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F%20%D0%BF%D0%B8%D1%89%D1%83%D1%85%D0%B0%20%28Certhia%20familiaris%29.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Certhia%20familiaris%2001.jpg",
+			"https://www.miljolare.no/innsendt/bilder/aktivitet/1323698/69569c07285bb/20260101_152233.jpg",
+			"https://live.staticflickr.com/65535/55021678803_d4b82f9aae_b.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/puukiipija-copyright-birdlife.mp3",
@@ -2007,6 +2366,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-kanahaukka-pertti-rasp-micha-fager-800x437.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Northern%20Goshawk%20ad%20M2.jpg",
+			"https://live.staticflickr.com/65535/55034248852_2f73fbb8d8_b.jpg",
+			"https://live.staticflickr.com/65535/55035155211_d6b33f0ebc_b.jpg",
+			"https://live.staticflickr.com/65535/55034248712_9757199e28_b.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/kanahaukka-eetu-paljakka-xeno-canto-cc.mp3",
@@ -2030,6 +2393,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-merikotka-micha-fagerf-ja-petri-vainio-800x407.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Adult%20White-tailed%20Eagle%20defending%20prey%2C%20Rezerwat%20Gostynin-Wloclawek%2C%20Poland.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Aquila%20di%20mare%20FS1.jpg",
+			"https://live.staticflickr.com/65535/55023920099_1ab10a384a_b.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/605642714/original.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/merikotka-terje-kolaas-xeno-canto-cc.mp3",
@@ -2052,6 +2419,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-riekko-petri-vainio-800x328.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Lagop%C3%A8de%20des%20saules%20-%20Abiskojaure%2010.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Lagopus%20lagopus%20-%20adult%20%28Denali%2C%202010%29.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/605605436/original.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/605605435/original.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/riekko-copyright-birdlife.mp3",
@@ -2074,6 +2445,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-teeri-micha-fager-800x435.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Birkhahn.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Black%20Grouse%20Nationalpark%20Bayerischer%20Wald.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Teeri.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Tedrekana%20%28Tetrao%20tetrix%29%20pesal%202010.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/teeri-copyright-birdlife.mp3",
@@ -2095,11 +2470,15 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-lapintiainen-micha-fager-800x365.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Siberian%20Tit%20Parus%20Cinctus%202006%2003%2007.JPG",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/606436080/original.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/605039117/original.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/614156480/original.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/lapintiainen-copyright-birdlife.mp3",
 		id: "lapintiainen",
-		scientificName: "Poecile cinctus",
+		scientificName: "Parus cinctus",
 	},
 	{
 		nameFi: "Hömötiainen",
@@ -2117,6 +2496,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-homotiainen-micha-fager-800x357.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Parus%20atricapillus%202%20%28Marek%20Szczepanek%29.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/604540879/original.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/604540922/original.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/605050287/original.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/homotiainen-copyright-birdlife.mp3",
@@ -2139,6 +2522,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-korppi-petri-vainio-800x491.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Corvus%20corax%20ad%20berlin%20090516.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Common%20Raven%20%28Corvus%20corax%29%20%2811793963694%29.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Common%20Raven%20%28Corvus%20corax%29%20%2839638261481%29.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Corvus%20corax%20tingitanus%20MHNT%20232%20HdB%20Djebel%20Messaad%20Algerie.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/korppi-copyright-birdlife.mp3",
@@ -2159,11 +2546,15 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-naakka-micha-fager-800x465.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Dohle%20%28Corvus%20monedula%29%20d1.jpg",
+			"https://live.staticflickr.com/65535/55019591638_93bae3a689_b.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/605024606/original.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/605712397/original.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/naakka-copyright-birdlife.mp3",
 		id: "naakka",
-		scientificName: "Corvus monedula",
+		scientificName: "Coloeus monedula",
 	},
 	{
 		nameFi: "Urpiainen",
@@ -2181,6 +2572,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-urpiainen-micha-fager-800x418.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Acanthis%20flammea%2C%20Kotka%2C%20Finland%202.jpg",
+			"https://live.staticflickr.com/65535/55022641067_c61ea526af_b.jpg",
+			"https://live.staticflickr.com/65535/55022640862_d192c4742b_b.jpg",
+			"https://live.staticflickr.com/65535/55023527926_6c3494023a_b.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/urpiainen-copyright-birdlife.mp3",
@@ -2202,6 +2597,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-punatulkku-micha-fager-petri-vainio-800x356.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Bullfinch%20male.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Dompap.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Pyrrhula%20pyrrhula%20female%202.jpg",
+			"https://www.miljolare.no/innsendt/bilder/aktivitet/1323850/695a7b560f56c/20260104_122228.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/punatulkku-copyright-birdlife.mp3",
@@ -2224,6 +2623,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2021/06/turphi-MF-1-e1623398509718-800x606.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Song%20thrush%20%28Turdus%20philomelos%20philomelos%29.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/605403259/original.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/604756806/original.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/605395277/original.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/laulurastas-copyright-birdlife.mp3",
@@ -2246,6 +2649,10 @@ export const BIRDS: Bird[] = [
 		},
 		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2021/06/carery-MF-800x606.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Carpodacus%20erythrinus%2020060623.jpg",
+			"https://commons.wikimedia.org/wiki/Special:FilePath/Common%20Rosefinch%20Baur%20reservoir%20Uttarakhand%2003.12.2014.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/605635827/original.jpg",
+			"https://inaturalist-open-data.s3.amazonaws.com/photos/605635854/original.jpg",
 		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/punavarpunen-copyright-birdlife.mp3",
