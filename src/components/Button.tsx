@@ -1,6 +1,6 @@
 import cn from "cnfast";
 
-export type ButtonProps = React.HTMLAttributes<HTMLButtonElement>;
+export type ButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement>;
 
 export function Button({ children, className, style, ...props }: ButtonProps) {
 	return (

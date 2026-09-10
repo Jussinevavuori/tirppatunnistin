@@ -2,6 +2,7 @@ import { useAtom } from "@xstate/store-react";
 import { useMemo, useState } from "react";
 import { BIRDS, type Bird } from "#/data/birds";
 import { answerModeAtom } from "#/store/answerModeAtom";
+import { Button } from "./Button";
 
 export type AnswerFormProps = {
 	bird: Bird;
@@ -69,11 +70,8 @@ export function AnswerForm(props: AnswerFormProps) {
 			return (
 				<div className="grid grid-cols-2 gap-2">
 					{options.map((option) => (
-						<button
+						<Button
 							key={option.id}
-							className="h-10 border-2 bg-white px-4 font-semibold"
-							type="button"
-							style={{ boxShadow: "4px 4px 0px rgba(0, 0, 0, 1)" }}
 							onClick={() =>
 								props.onAnswer({
 									isCorrect: option.id === props.bird.id,
@@ -82,7 +80,7 @@ export function AnswerForm(props: AnswerFormProps) {
 							}
 						>
 							{option.nameFi}
-						</button>
+						</Button>
 					))}
 				</div>
 			);
@@ -119,14 +117,9 @@ export function AnswerForm(props: AnswerFormProps) {
 							onChange={(e) => setGuess(e.target.value)}
 							style={{ boxShadow: "4px 4px 0px rgba(0, 0, 0, 1)" }}
 						/>
-						<button
-							className="h-10 border-2 px-4 font-semibold"
-							type="submit"
-							style={{ boxShadow: "4px 4px 0px rgba(0, 0, 0, 1)" }}
-							disabled={!guess.trim()}
-						>
+						<Button type="submit" disabled={!guess.trim()}>
 							Lähetä
-						</button>
+						</Button>
 					</form>
 					{levenshteinHint !== null && (
 						<div
