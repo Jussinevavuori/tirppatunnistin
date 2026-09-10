@@ -1,3 +1,4 @@
+import { Link } from "@tanstack/react-router";
 import { useAtom } from "@xstate/store-react";
 import { ArrowRightIcon, BirdIcon } from "lucide-react";
 import { answersAtom, birdsAtom, totalRoundsAtom } from "#/store/game.store";
@@ -44,14 +45,20 @@ export function HomeScreen() {
 
 			<GameSettingsForm />
 
-			<a
-				href="https://www.birdlife.fi/lintuharrastus/100lintulajia/opi-tuntemaan/"
-				className="font-semibold text-blue-500 underline"
-				target="_blank"
-				rel="noopener noreferrer"
-			>
-				Lähde: Birdlife
-			</a>
+			<div className="flex flex-row items-center justify-center gap-2">
+				<a
+					href="https://www.birdlife.fi/lintuharrastus/100lintulajia/opi-tuntemaan/"
+					className="font-semibold text-blue-500 underline"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					Lähde: Birdlife
+				</a>
+				<span>·</span>
+				<Link to="/browse" className="font-semibold text-blue-500 underline">
+					Selaa tirppoja
+				</Link>
+			</div>
 		</AppShell>
 	);
 }

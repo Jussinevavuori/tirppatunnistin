@@ -1,0 +1,1 @@
+- Käy läpi kaikki kuvat, poista huonot
