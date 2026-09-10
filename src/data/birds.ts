@@ -11,7 +11,7 @@ export type Bird = {
 		other: string;
 		size: string;
 	};
-	imageUrl: string;
+	imageUrls: string[];
 	audioUrl: string;
 };
 
@@ -32,8 +32,9 @@ export const BIRDS: Bird[] = [
 				"Koiras on hieman kirkkaamman värinen kuin naaras. Satakunnan maakuntalintu.",
 			size: "11–12 cm, talitiaista pienempi.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/sinitiainen_petri-vainio-800x440.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/sinitiainen-copyright-birdlife.mp3",
 		id: "sinitiainen",
@@ -53,8 +54,9 @@ export const BIRDS: Bird[] = [
 			other: "Talviruokintapaikkojen yleisin laji.",
 			size: "14–16 cm, sinitiaista suurempi, vähän varpusta pienempi.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/talitiainen_pertti-rasp-800x445.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/talitiainen-copyright-birdlife.mp3",
 		id: "talitiainen",
@@ -73,8 +75,9 @@ export const BIRDS: Bird[] = [
 				"Pysyttelee pienellä alueella ympäri vuoden. Suurin osa harakoista elää koko ikänsä alle 10 kilometrin sisällä synnyinpaikastaan.",
 			size: "40–50 cm, mistä pyrstön osuus on noin puolet.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-harakka-micha-fager-800x490.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/harakka-copyright-birdlife.mp3",
 		id: "harakka",
@@ -93,8 +96,9 @@ export const BIRDS: Bird[] = [
 				"Suuri osa variksista muuttaa talveksi pois Suomesta, vaikka laji on talvellakin yleinen.",
 			size: "Noin 45–50 cm (suurimpia varpuslintujamme), selvästi suurempi kuin naakka tai kesykyyhky.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-varis-petri-vainio-800x452.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/varis-copyright-birdlife.mp3",
 		id: "varis",
@@ -115,8 +119,9 @@ export const BIRDS: Bird[] = [
 				"Harmaapäätikka on kesällä melko arka, mutta tulee talvella hanakasti rasvaruokinnalle.",
 			size: "Noin 30 cm, selvästi suurempi kuin käpytikka.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-harmaapaatikka-jyrki-makela-800x363.jpg",
+		],
 		audioUrl:
 			"https://asiakas.kotisivukone.com/files/pirhonenj.kotisivukone.com/piccanrausong1903112.mp3",
 		id: "harmaapaatikka",
@@ -135,8 +140,9 @@ export const BIRDS: Bird[] = [
 			other: "Yleisin tikkamme, tavallinen talviruokintapaikoilla.",
 			size: "Noin 25 cm, suunnilleen musta- tai räkättirastaan kokoinen.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-kapytikka-petri-vainio-800x423.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/kapytikka-copyright-birdlife.mp3",
 		id: "kapytikka",
@@ -157,8 +163,9 @@ export const BIRDS: Bird[] = [
 				"Pesii mielellään vaakamalliseen pönttöön. Sellaisen voi helposti rakentaa itse.",
 			size: "Noin 14 cm, vähän varpusta pienempi.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-pikkuvarpunen-petri-vainio-800x435.jpg",
+		],
 		audioUrl: "http://www.lintukuva.fi/aanet/pasmon.mp3",
 		id: "pikkuvarpunen",
 		scientificName: "Passer montanus",
@@ -176,8 +183,9 @@ export const BIRDS: Bird[] = [
 			other: "Parvet viihtyvät erityisesti tiheissä orapihlaja-aidoissa.",
 			size: "Noin 15 cm, peipon ja viherpeipon kokoinen.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-varpunen-micha-fager-800x477.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/varpunen-copyright-birdlife.mp3",
 		id: "varpunen",
@@ -197,8 +205,9 @@ export const BIRDS: Bird[] = [
 				"Talvehtii virtaavien jokien ja purojen äärellä. Suomessa talvehtivat linnut tulevat pääosin Pohjois-Norjasta.",
 			size: "Noin 20 cm, suunnilleen kottaraisen tai tilhen kokoinen.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-koskikara-pertti-rasp-800x443.jpg",
+		],
 		audioUrl: "http://www.lintukuva.fi/aanet/cincin.mp3",
 		id: "koskikara",
 		scientificName: "Cinclus cinclus",
@@ -217,8 +226,9 @@ export const BIRDS: Bird[] = [
 				"Polveutuu kalliokyyhkystä. Pesii rakennuksissa lähes ympäri vuoden.",
 			size: "30–35 cm, naakan kokoinen, varista pienempi.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-kesykyyhky-micha-fager-800x445.jpg",
+		],
 		audioUrl: "http://www.lintukuva.fi/aanet/colliv.mp3",
 		id: "kesykyyhky",
 		scientificName: "Columba livia",
@@ -238,8 +248,9 @@ export const BIRDS: Bird[] = [
 				"Suosii ruokinnalla kauraa ja syö sitä mieluiten lyhteestä tai maasta.",
 			size: "Noin 17 cm, vähän suurempi kuin talitiainen tai viherpeippo.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-keltasirkku-micha-fager-1-800x415.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/keltasirkku-copyright-birdlife.mp3",
 		id: "keltasirkku",
@@ -260,8 +271,9 @@ export const BIRDS: Bird[] = [
 				"Viherpeipon löytää usein ruusuistutuksissa syömässä ruusunkiulukoiden siemeniä.",
 			size: "Noin 15 cm, varpusen kokoinen.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-viherpeippo-petri-vainio-1-800x390.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/viherpeippo-copyright-birdlife.mp3",
 		id: "viherpeippo",
@@ -282,8 +294,9 @@ export const BIRDS: Bird[] = [
 				"Fasaani on aasialainen laji, joka tuotiin Suomeen vasta vuonna 1901.",
 			size: "Pyrstö mukaan lukien 70–90 cm (josta pyrstön osuus noin puolet).",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-fasaani-micha-fager-800x319.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/fasaani-copyright-birdlife.mp3",
 		id: "fasaani",
@@ -303,8 +316,9 @@ export const BIRDS: Bird[] = [
 				"Sinisorsa on kesyankan kantamuoto. Luonnossakin sinisorsilla näkee suhteellisen usein erilaisia värimuunnoksia.",
 			size: "50–60 cm, vähän varista suurempi.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-sinisorsa-pertti-rasp-1-800x335.jpg",
+		],
 		audioUrl: "http://www.lintukuva.fi/aanet/anapla.mp3",
 		id: "sinisorsa",
 		scientificName: "Anas platyrhynchos",
@@ -323,8 +337,9 @@ export const BIRDS: Bird[] = [
 				"Töyhtötiainen on paikkalintu ja liikkuu vähemmän kuin muut tiaisemme. Se poikkeaa kuitenkin talvella lähellä metsää olevilla ruokintapaikoilla.",
 			size: "11–12 cm, sinitiaisen kokoinen.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-toyhtotiainen-petri-vainio-1-800x468.jpg",
+		],
 		audioUrl: "http://www.birdphoto.fi/aanet/parcri.mp3",
 		id: "toyhtotiainen",
 		scientificName: "Lophophanes cristatus",
@@ -343,8 +358,9 @@ export const BIRDS: Bird[] = [
 				"Harmaalokki pitää hallussaan Suomessa rengastettujen lintujen ikäennätystä. Kesäkuussa 1987 pesäpoikasena rengastettu lintu löytyi kuolleena 35 vuotta myöhemmin kesäkuussa 2022.",
 			size: "55–60 cm, varista suurempi.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-harmaalokki-hannu-kekkonen-1-800x577.jpg",
+		],
 		audioUrl: "http://www.birdphoto.fi/aanet/lararg.mp3",
 		id: "harmaalokki",
 		scientificName: "Larus argentatus",
@@ -364,8 +380,9 @@ export const BIRDS: Bird[] = [
 				"Mustarastas on Uudenmaan maakuntalintu, ja vuonna 2015 se valittiin Ruotsin kansallislinnuksi.",
 			size: "Noin 25 cm, räkättirastaan kokoinen.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-mustarastas-petri-vainio-pasi-parkkinen-800x351.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/mustarastas-copyright-birdlife.mp3",
 		id: "mustarastas",
@@ -385,8 +402,9 @@ export const BIRDS: Bird[] = [
 				"Palokärki kovertaa tavallisesti joka vuosi uuden pesäkolon ja on siten tärkeä pesänikkari isommille kolopesijöille.",
 			size: "Noin 45 cm, suurin tikkamme, suunnilleen variksen kokoinen.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-palokarki-micha-fager-800x579.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/palokarki-copyright-birdlife.mp3",
 		id: "palokarki",
@@ -406,8 +424,9 @@ export const BIRDS: Bird[] = [
 				"Runsaus vaihtelee suuresti vuodesta toiseen myyrätilanteen mukaan.",
 			size: "Noin 25 cm, vain räkätti- tai mustarastaan kokoinen.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-helmipollo-micha-fager-800x456.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/helmipollo-copyright-birdlife.mp3",
 		id: "helmipollo",
@@ -428,8 +447,9 @@ export const BIRDS: Bird[] = [
 				"Punaruskealla värimuodolla on vilkkaampi aineenvaihdunta. Tämä aiemmin harvinaisempi värimuoto on runsastunut talvien muututtua leudommiksi.",
 			size: "Noin 40 cm, vähän varista pienempi.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-lehtopollo-micha-fager-800x462.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/lehtopollo-copyright-birdlife.mp3",
 		id: "lehtopollo",
@@ -449,8 +469,9 @@ export const BIRDS: Bird[] = [
 			other: "Kiuru on Keski-Pohjanmaan maakuntalintu.",
 			size: "Noin 18 cm, varpusta suurempi mutta kottaraista pienempi.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-kiuru_micha-fager-800x380.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/kiuru-copyright-birdlife.mp3",
 		id: "kiuru",
@@ -471,8 +492,9 @@ export const BIRDS: Bird[] = [
 				"Kevään ensimmäisiä muuttolintuja. Voi kuitenkin muuttaa takaisin pakkasen tai lumisateen tieltä.",
 			size: "noin 30 cm, naakan tai kyyhkyn kokoinen.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-toyhtohyyppa_micha-fager-800x470.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/toyhtohyyppa-copyright-birdlife.mp3",
 		id: "toyhtohyyppa",
@@ -492,8 +514,9 @@ export const BIRDS: Bird[] = [
 				"Pulmusen valkoinen väri on erinomainen suoja lumisessa rakkakivikossa. Puhtaanvalkoista pidetään myös viattomuuden värinä. Olet varmaan kuullut sanonnan ”puhdas kuin pulmunen”.",
 			size: "Noin 18 cm, kiurun kokoinen.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-pulmunen_pertti-rasp-800x328.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/pulmunen-copyright-birdlife.mp3",
 		id: "pulmunen",
@@ -514,8 +537,9 @@ export const BIRDS: Bird[] = [
 				"Pesii pöntöissä tai luonnonkoloissa, jotka voivat olla jopa kilometrien päässä lähimmältä lammelta tai järveltä. Pesästälähdön jälkeen emo johdattaa poikaset veteen.",
 			size: "Noin 45 cm, sinisorsaa pienempi.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-telkka_hannu-eskonen-800x438.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/telkka-copyright-birdlife.mp3",
 		id: "telkka",
@@ -536,8 +560,9 @@ export const BIRDS: Bird[] = [
 				"Painavin Euroopassa elävä lintu: aikuinen koiras voi painaa yli 14 kg. Tanskan kansallislintu.",
 			size: "Noin 150 cm, laulujoutsenen kokoinen, hanhia selvästi suurempi.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-kyhmyjoutsen-pertti-rasp-800x413.jpg",
+		],
 		audioUrl: "http://www.lintukuva.fi/aanet/cygolo.mp3",
 		id: "kyhmyjoutsen",
 		scientificName: "Cygnus olor",
@@ -556,8 +581,9 @@ export const BIRDS: Bird[] = [
 				"Suomen kansallislintu. Hyvin pariuskollinen: Puolisot pysyttelevät yleensä yhdessä niin kauan kuin molemmat ovat elossa.",
 			size: "Noin 150 cm, kyhmyjoutsenen kokoinen, hanhia selvästi suurempi.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-laulujoutsen-pertti-rasp-1-800x310.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/laulujoutsen-copyright-birdlife.mp3",
 		id: "laulujoutsen",
@@ -577,8 +603,9 @@ export const BIRDS: Bird[] = [
 				"”Västäräkistä vähäsen”, sanotaan. Sen saapumisesta ei pitäisi olla pitkä aika kesään. Pirkanmaan maakuntalintu.",
 			size: "Noin 18 cm, suurempi kuin talitiainen.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-vastarakki-pertti-rasp-1-800x278.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/vastarakki-copyright-birdlife.mp3",
 		id: "vastarakki",
@@ -599,8 +626,9 @@ export const BIRDS: Bird[] = [
 				"Kottarainen on levinnyt ihmisen mukana Euroopasta ja Länsi-Aasiasta muille mantereille, ja se luokitellaan yhdeksi maailman sadasta haitallisimmasta vieraslajista.",
 			size: "Noin 20 cm, pienempi kuin mustarastas.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-kottarainen-micha-fager-1-800x430.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/kottarainen-copyright-birdlife.mp3",
 		id: "kottarainen",
@@ -620,8 +648,9 @@ export const BIRDS: Bird[] = [
 				"Kotieläimeksi jalostettu kesyhanhi polveutuu pääosin merihanhesta.",
 			size: "Noin 80 cm, sinisorsaa suurempi, laulujoutsenta pienempi.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-merihanhi-pertti-rasp-800x406.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/merihanhi-copyright-birdlife.mp3",
 		id: "merihanhi",
@@ -641,8 +670,9 @@ export const BIRDS: Bird[] = [
 				"Metsähanhi on riistalintu, mutta meillä pesivä kanta on voimakkaasti taantunut. Suomessa pesii kaksi alalajia. Pohjoisimmassa Lapissa pesivä tundrametsähanhi on luokiteltu erittäin uhanalaiseksi ja taigametsähanhi vaarantuneeksi.",
 			size: "Noin 80 cm, sinisorsaa suurempi, laulujoutsenta pienempi.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-metsahanhi-petri-vainio-2-800x397.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/metsahanhi-copyright-birdlife.mp3",
 		id: "metsahanhi",
@@ -663,8 +693,9 @@ export const BIRDS: Bird[] = [
 				"Soidinpaikkojen pirstoutuessa yksinäiset kukot voivat uhitella ihmisille ja yksinäiset koppelot eli naarasmetsot voivat herättää hämmästystä vaikka koulun pihalla tai kylän keskustassa. Keski-Suomen maakuntalintu.",
 			size: "Koiras 75-90 cm, naaras noin 60 cm, suurin kanalinnuistamme.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-metso-pertti-rasp-petri-vainio-800x363.jpg",
+		],
 		audioUrl: "http://www.lintukuva.fi/aanet/teturo.mp3",
 		id: "metso",
 		scientificName: "Tetrao urogallus",
@@ -683,8 +714,9 @@ export const BIRDS: Bird[] = [
 				"Ennen muinoin kuviteltiin, että pikkulintuja muuttaa syksyisin kurkien siivellä etelään. Tämä johtuu siitä, että nuorilla kurjilla on aivan erilainen ääni: heikko piiskutus. Pohjois-Pohjanmaan maakuntalintu.",
 			size: "100–120 cm (siipienväli noin 2 metriä), maassa seisten pisin lintumme.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-kurki-pekka-komi-800x394.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/kurki-copyright-birdlife.mp3",
 		id: "kurki",
@@ -705,8 +737,9 @@ export const BIRDS: Bird[] = [
 				"Järripeippokoiraan pää on kesällä kiiltävän sinimusta, kun tuoreiden höyhenien vaaleammat kärjet ovat kuluneet pois.",
 			size: "Noin 15 cm, varpusen kokoinen.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-jarripeippo-pertti-rasp-micha-fager-800x351.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/jarripeippo-copyright-birdlife.mp3",
 		id: "jarripeippo",
@@ -726,8 +759,9 @@ export const BIRDS: Bird[] = [
 				"Peippo on Suomen runsain lintulaji. Pajulintuja on suunnilleen yhtä paljon.",
 			size: "Noin 15 cm, varpusen kokoinen.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-peippo-pekka-komi-micha-fager-800x335.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/peippo-copyright-birdlife.mp3",
 		id: "peippo",
@@ -747,8 +781,9 @@ export const BIRDS: Bird[] = [
 				"Erikoinen soidinääni syntyy uloimmista pyrstösulista, kun taivaanvuohi syöksyy alaspäin pyrstö levitettynä.",
 			size: "Noin 25 cm (josta nokka noin 7 cm), suurempi kuin rantasipi, pienempi kuin töyhtöhyyppä.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-taivaanvuohi-pekka-komi-800x449.jpg",
+		],
 		audioUrl: "http://www.lintukuva.fi/aanet/galgal.mp3",
 		id: "taivaanvuohi",
 		scientificName: "Gallinago gallinago",
@@ -767,8 +802,9 @@ export const BIRDS: Bird[] = [
 				"Suokukoilla on monimutkainen ryhmäsoidin, jossa erinäköisillä koirailla on erilainen asema. Useimmat koiraat tappelevat herruudesta, mutta ylinnä hierarkiassa ovat valkokauluksiset satelliittikoiraat. On myös koiraita, jotka ”hiiviskelevät” soidinpaikalla naaraan näköisinä.",
 			size: "Koiras noin 30 cm, naaras selvästi pienempi – noin 25 cm.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-suokukko-micha-fager-800x442.jpg",
+		],
 		audioUrl: "",
 		id: "suokukko",
 		scientificName: "Philomachus pugnax",
@@ -787,8 +823,9 @@ export const BIRDS: Bird[] = [
 				"Alli on keväällä runsain laji arktikan eli arktisten vesilintujen muutossa. Huippupäivinä yhdestä Suomenlahden havaintopisteestä on laskettu yli 300 000 muuttavaa allia.",
 			size: "Noin 45 cm, suunnilleen telkän kokoinen. Koiraalla lisäksi 10–15 cm pituiset pyrstöjouhet.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-alli-micha-fager-800x441.jpg",
+		],
 		audioUrl: "http://www.lintukuva.fi/aanet/clahye.mp3",
 		id: "alli",
 		scientificName: "Clangula hyemalis",
@@ -808,8 +845,9 @@ export const BIRDS: Bird[] = [
 				"Haahkanuntuvia on kerätty pesistä takkien ja peittojen täytteeksi pesinnän jälkeen. Naaras on vuorannut pesän untuvilla, joita se on nyppinyt rinnastaan.",
 			size: "60–70 cm, sinisorsaa isompi.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-haahka-petri-vainio-800x465.jpg",
+		],
 		audioUrl: "http://www.lintukuva.fi/aanet/sommol.mp3",
 		id: "haahka",
 		scientificName: "Somateria mollissima",
@@ -828,8 +866,9 @@ export const BIRDS: Bird[] = [
 				"Tavallinen pihapönttöjen asukas. Poikasille syötetään parin viikon pesäpoikasaikana noin 15 000 hyönteistä.",
 			size: "12–13 cm, pienempi kuin talitiainen.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-kirjosieppo-micha-fager-800x403.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/kirjosieppo-copyright-birdlife.mp3",
 		id: "kirjosieppo",
@@ -849,8 +888,9 @@ export const BIRDS: Bird[] = [
 				"Peipon ohella Suomen runsain lintulaji: pesimäkannaksi arvioidaan 6–9 miljoonaa paria.",
 			size: "11–12 cm, sinitiaisen kokoinen.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-pajulintu-micha-fager-800x420.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/pajulintu-copyright-birdlife.mp3",
 		id: "pajulintu",
@@ -870,8 +910,9 @@ export const BIRDS: Bird[] = [
 				"Kertuistamme yleisin; Suomen kannaksi arvioidaan noin 660 000 paria.",
 			size: "Noin 14 cm, suunnilleen talitiaisen kokoinen.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-lehtokerttu-micha-fager-800x431.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/lehtokerttu-copyright-birdlife.mp3",
 		id: "lehtokerttu",
@@ -892,8 +933,9 @@ export const BIRDS: Bird[] = [
 				"Laulaa aktiivisimmin yöllä. Laulun voimakkuus on yli 70 desibeliä, ja se voi kuulua yli kilometrin päähän. Etelä-Karjalan maakuntalintu.",
 			size: "Noin 16 cm, suurempi kuin talitiainen, pienempi kuin kottarainen.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-satakieli-micha-fager-800x446.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/satakieli-copyright-birdlife.mp3",
 		id: "satakieli",
@@ -913,8 +955,9 @@ export const BIRDS: Bird[] = [
 				"Leppälinnun nimi juontaa juuri katkaistun lepän punaruskeasta väristä.",
 			size: "Noin 14 cm, talitiaisen tai peipon kokoinen.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/leppalintu-pr-mf-800x365.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/leppalintu-copyright-birdlife.mp3",
 		id: "leppalintu",
@@ -933,8 +976,9 @@ export const BIRDS: Bird[] = [
 			other: "Sinirinta on Lapin maakuntalintu.",
 			size: "Noin 14 cm, talitiaisen tai peipon kokoinen.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/lussve-mf-800x500.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/sinirinta-copyright-birdlife.mp3",
 		id: "sinirinta",
@@ -955,8 +999,9 @@ export const BIRDS: Bird[] = [
 				"Eroaa muista samannäköisistä kerttusista (luhta- ja rytikerttunen) parhaiten laulun perusteella.",
 			size: "Noin 13 cm, kirjosiepon kokoluokkaa.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/06/viitakerttunen-fager-micha-800x591.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/viitakerttunen-copyright-birdlife.mp3",
 		id: "viitakerttunen",
@@ -977,8 +1022,9 @@ export const BIRDS: Bird[] = [
 				"Laulaa usein näkyvällä paikalla, mutta piilottelee muulloin kasvillisuuden kätköissä.",
 			size: "Noin 12 cm, pieni, kirjosiepon kokoluokkaa",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/06/ruokokerttunen-vainio-petri-800x553.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/ruokokerttunen-copyright-birdlife.mp3",
 		id: "ruokokerttunen",
@@ -998,8 +1044,9 @@ export const BIRDS: Bird[] = [
 				"Lekuttaa usein paikallaan veden päällä ja syöksyy veteen pikkukalan perään.",
 			size: "Noin 35 cm, selvästi tavanomaisia lokkilajeja pienempi.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/06/kalatiira-vainio-petri-800x592.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/kalatiira-copyright-birdlife.mp3",
 		id: "kalatiira",
@@ -1020,8 +1067,9 @@ export const BIRDS: Bird[] = [
 				"Piilotteleva, yleensä vain laulu paljastaa esiintymisen. Juoksee karkuun mieluummin kuin lentää.",
 			size: "Noin 25 cm, hieman räkättirastasta suurempi.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/06/ruisraakka-fager-micha-800x580.jpg",
+		],
 		audioUrl: "http://www.lintukuva.fi/aanet/crecre.mp3",
 		id: "ruisraakka",
 		scientificName: "Crex crex",
@@ -1041,8 +1089,9 @@ export const BIRDS: Bird[] = [
 				"Ei rakenna itse pesää, vaan munii toisten lintujen pesään ja jättää poikasen kasvatuksen toisen lajin vanhempien tehtäväksi. Pohjois-Karjalan maakuntalintu.",
 			size: "Noin 35 cm eli selvästi mustarastasta suurempi, mutta harakkaa pienempi.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/06/kaki-rasp-pertti.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/kaki-copyright-birdlife.mp3",
 		id: "kaki",
@@ -1062,8 +1111,9 @@ export const BIRDS: Bird[] = [
 				"Syysmuutto alkaa monien kahlaajalajien tavoin jo aikaisin kesäkuussa. Naaraat jättävät poikasista huolehtimisen koiraiden tehtäväksi. Etelä-Pohjanmaan maakuntalintu.",
 			size: "Noin 55 cm, variksen kokoluokkaa.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/06/kuovi-fager-micha.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/kuovi-copyright-birdlife.mp3",
 		id: "kuovi",
@@ -1084,8 +1134,9 @@ export const BIRDS: Bird[] = [
 				"Suomen runsain pesivä kahlaajalaji. Pesiminen painottuu pohjoiseen, muuttoaikoihin yleinen koko maassa.",
 			size: "Noin 20 cm eli kottaraisen kokoinen.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/07/liro-fager-micha.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/liro-copyright-birdlife.mp3",
 		id: "liro",
@@ -1104,8 +1155,9 @@ export const BIRDS: Bird[] = [
 			other: "Keikuttaa luonteenomaisesti pyrstöään liikkuessaan.",
 			size: "Noin 20 cm eli kottaraisen kokoinen.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/07/rantasipi-fager-micha.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/rantasipi-copyright-birdlife.mp3",
 		id: "rantasipi",
@@ -1125,8 +1177,9 @@ export const BIRDS: Bird[] = [
 				"Poikaset päästä raidallisia. Viihtyvät emojen selässä siipien suojassa.",
 			size: "Noin 48 cm eli sinisorsaa hieman pienempi, mutta selvästi sirompi ja lyhyempiruumiinen.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/07/silkkiuikku-vainio-petri-800x551.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/silkkiuikku-copyright-birdlife.mp3",
 		id: "silkkiuikku",
@@ -1147,8 +1200,9 @@ export const BIRDS: Bird[] = [
 				"Pitkäikäinen, saavuttaa sukukypsyyden vasta 5–7 vuoden iässä. Pohjois-Savon maakuntalintu.",
 			size: "Noin 70 cm eli selvästi sinisorsaa suurempi.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/07/kuikka-vainio-petri-800x588.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/kuikka-copyright-birdlife.mp3",
 		id: "kuikka",
@@ -1169,8 +1223,9 @@ export const BIRDS: Bird[] = [
 				"Pesii yhdyskunnissa, syysmuutto alkaa kesällä ja suuri osa naurulokeista lähtee jo heinäkuussa.",
 			size: "Noin 35–40 cm, suunnilleen kesykyyhkyn kokoinen.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-naurulokit-micha-fager-800x372.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/naurulokki-copyright-birdlife.mp3",
 		id: "naurulokki",
@@ -1189,8 +1244,9 @@ export const BIRDS: Bird[] = [
 				"Pesä tavallisesti maassa, mutta voi rakentaa pesänsä puun oksalle tai rakennuksen katolle, erityisesti kaupungeissa ja tehdasalueilla.",
 			size: "Noin 40–45 cm, vähän suurempi kuin naurulokki, selvästi pienempi kuin harmaalokki.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-kalalokki-micha-fager-800x486.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/kalalokki-copyright-birdlife.mp3",
 		id: "kalalokki",
@@ -1210,8 +1266,9 @@ export const BIRDS: Bird[] = [
 				"Muuraa savesta puolipallomaisen pesän räystään tai muun suojan alle. Pesintää voi helpottaa asettamalla räystään alle laudan, jonka päällä pesä pysyy.",
 			size: "Noin 14 cm, pienempi kuin haarapääsky.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-raystaspaasky_petri-vainio-800x364.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/raystaspaasky-copyright-birdlife.mp3",
 		id: "raystaspaasky",
@@ -1230,8 +1287,9 @@ export const BIRDS: Bird[] = [
 				"Kerääntyy loppukesällä parviin, jotka yöpyvät ruovikoissa. Suurimmissa yöpymisparvissa voi olla tuhansia lintuja.",
 			size: "Noin 19 cm, josta pyrstön osuus koiraalla jopa kolmannes.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-haarapaasky_micha-fager-800x399.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/haarapaasky-copyright-birdlife.mp3",
 		id: "haarapaasky",
@@ -1251,8 +1309,9 @@ export const BIRDS: Bird[] = [
 				"Tervapääsky ei nimestään huolimatta ole sukua pääskyille vaan kuuluu kiitäjien heimoon. Pohjanmaan maakuntalintu.",
 			size: "Noin 18 cm, suurempi kuin haara- ja räystäspääsky.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-tervapaasky_juyssi-vakkala-800x490.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/tervapaasky-copyright-birdlife.mp3",
 		id: "tervapaasky",
@@ -1273,8 +1332,9 @@ export const BIRDS: Bird[] = [
 				"Lekuttelee, syöksyy ja sukeltaa saaliin kimppuun. Syö pelkästään kaloja. Kanta-Hämeen maakuntalintu.",
 			size: "Noin 60 cm, suurin päiväpetolintumme kotkien jälkeen.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-saaksi-micha-fager-800x511.jpg",
+		],
 		audioUrl: "",
 		id: "saaksi",
 		scientificName: "Pandion haliaetus",
@@ -1294,8 +1354,9 @@ export const BIRDS: Bird[] = [
 				"Metsäkirvinen on Suomen kuudenneksi runsain pesimälintu. Pesiviä pareja on lähes kaksi miljoonaa.",
 			size: "Noin 15 cm, suunnilleen talitiaisen kokoinen.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-metsakirvinen-micha-fager-800x447.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/metsakirvinen-copyright-birdlife.mp3",
 		id: "metsakirvinen",
@@ -1316,8 +1377,9 @@ export const BIRDS: Bird[] = [
 				"Pohjois-Suomen keltavästäräkit kuuluvat alalajiin, jonka koiraalla on silmän ympärillä tumma alue. Etelä-Suomessa pesivillä välimuotoisilla koirailla on vaihtelevasti tumma tai valkea silmäkulmanjuova.",
 			size: "Noin 16 cm, suunnilleen västäräkin kokoinen.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-keltavastarakki-koiras-micha-fager-800x451.jpg",
+		],
 		audioUrl: "http://www.lintukuva.fi/aanet/motfla.mp3",
 		id: "keltavastarakki",
 		scientificName: "Motacilla flava",
@@ -1336,8 +1398,9 @@ export const BIRDS: Bird[] = [
 			other: "Tavi on sinisorsan ohessa runsain sorsalintumme.",
 			size: "Noin 35–40 cm, pienin sorsamme.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-tavi-hannu-eskonen-pekka-komi-k-800x364.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/tavi-copyright-birdlife.mp3",
 		id: "tavi",
@@ -1356,8 +1419,9 @@ export const BIRDS: Bird[] = [
 				"Haapana on monen muun vesilinnun tavoin vähentynyt, ja laji luokitellaan uhanalaiseksi.",
 			size: "Noin 45–50 cm, pienempi kuin sinisorsa.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-haapana-petri-vainio-pekka-komi-pk-800x484.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/haapana-copyright-birdlife.mp3",
 		id: "haapana",
@@ -1376,8 +1440,9 @@ export const BIRDS: Bird[] = [
 				"Merimetso palasi yli sadan vuoden tauon jälkeen Suomen pesimälinnustoon vuonna 1996, minkä jälkeen kanta on voimakkaasti kasvanut.",
 			size: "90–100 cm (siipiväli noin 150 cm), meri- ja kanadanhanhen kokoinen.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-merimetso-pertti-rasp-800x455.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/merimetso-copyright-birdlife.mp3",
 		id: "merimetso",
@@ -1397,8 +1462,9 @@ export const BIRDS: Bird[] = [
 				"Pesinnän jälkeen hajaantuvat laajalle alueelle. Loppukesällä ja syksyllä kaikkialla kiertelijöitä eteläistä Lappia myöten merenlahdilla, järvillä ja muilla kosteikoilla.",
 			size: "90–100 cm (siipiväli noin 180 cm), pienempi kuin kurki.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-harmaahaikara-micha-fager-800x420.jpg",
+		],
 		audioUrl: "http://www.lintukuva.fi/aanet/ardcin.mp3",
 		id: "harmaahaikara",
 		scientificName: "Ardea cinerea",
@@ -1416,8 +1482,9 @@ export const BIRDS: Bird[] = [
 				"Harmaasiepon tapa pyrähtää lentoon sieppaamaan hyönteisiä on hyvä tapa erottaa laji muista hyönteissyöjäpikkulinnuista.",
 			size: "14–15 cm, talitiaisen kokoinen.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-harmaasieppo-pertti-rasp-800x392.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/harmaasieppo-copyright-birdlife.mp3",
 		id: "harmaasieppo",
@@ -1438,8 +1505,9 @@ export const BIRDS: Bird[] = [
 				"Tiltaltti on yksi monista äänen perusteella nimetyistä linnuistamme. Tällaisia nimiä sanotaan onomatopoeettisiksi.",
 			size: "10–12 cm, pajulinnun ja sinitiaisen kokoinen.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-tiltaltti-pekka-komi-800x418.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/tiltaltti-copyright-birdlife.mp3",
 		id: "tiltaltti",
@@ -1458,8 +1526,9 @@ export const BIRDS: Bird[] = [
 				"Lekuttelee usein paikoillaan etsiessään saalista. Näkee myyrien virtsaamisjäljet, jotka heijastavat ultraviolettivaloa.",
 			size: "Noin 35 cm, suunnilleen käen kokoinen, pienempi kuin varis.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-tuulihaukka-micha-fager-800x419.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/tuulihaukka-copyright-birdlife.mp3",
 		id: "tuulihaukka",
@@ -1479,8 +1548,9 @@ export const BIRDS: Bird[] = [
 				"Yleisin päiväpetolintumme. Suurin osa varpushaukoista muuttaa syyskuussa Suomesta, osa jää talvehtimaan.",
 			size: "30–35 cm, pienempi kuin varis. Naaras suurempi kuin koiras.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-varpushaukka-pekka-komi-micha-fager-800x419.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/varpushaukka-marc-anderson-xeno-canto-cc.mp3",
 		id: "varpushaukka",
@@ -1501,8 +1571,9 @@ export const BIRDS: Bird[] = [
 				"Yksi rantaruovikoiden yleisimpiä pikkulintuja ruokokerttusen ohella.",
 			size: "Noin 15 cm eli peipon kokoluokkkaa.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/09/100-pajusirkku-micha-fager-pertti-rasp-k.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/pajusirkku-copyright-birdlife.mp3",
 		id: "pajusirkku",
@@ -1522,8 +1593,9 @@ export const BIRDS: Bird[] = [
 			other: "Vanhempien ihmisten on vaikea kuulla hippiäisen korkeita ääniä.",
 			size: "Noin 9 cm, selvästi tiaisia ja pajulintua pienempi.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/09/100-hippiainen-micha-fager.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/hippiainen-copyright-birdlife.mp3",
 		id: "hippiainen",
@@ -1542,8 +1614,9 @@ export const BIRDS: Bird[] = [
 				"Huomattavasti runsastunut ja levittäytynyt kaupunkien keskustoihin saakka pesimään viime vuosikymmeninä.",
 			size: "Noin 40 cm, hieman varista pienempi.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/09/100-sepelkyyhky-micha-fager.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/sepelkyyhky-copyright-birdlife.mp3",
 		id: "sepelkyyhky",
@@ -1564,8 +1637,9 @@ export const BIRDS: Bird[] = [
 				"Kerää syksyllä tammenterhoja ja muita herkkuja metsiin varastoihin. Voi innostua myös keräämään pähkinöitä ruokinnalta omiin varastoihinsa, jolloin niiden menekki voi olla hyvin suurta.",
 			size: "Noin 35 cm, naakan kokoinen.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/09/100-narhi-pekka-komi.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/narhi-copyright-birdlife.mp3",
 		id: "narhi",
@@ -1584,8 +1658,9 @@ export const BIRDS: Bird[] = [
 			other: "Runsaus vaihtelee suuresti myyrä- ja sopulitilanteen mukaan.",
 			size: "50–60 cm, siipiväli 120–150 cm, suurempi kuin varis.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-piekana-pekka-komi-800x384.jpg",
+		],
 		audioUrl: "http://www.lintukuva.fi/aanet/butlag.mp3",
 		id: "piekana",
 		scientificName: "Buteo lagopus",
@@ -1604,8 +1679,9 @@ export const BIRDS: Bird[] = [
 				"Euroopan runsaslukuisin petolintu luokitellaan Suomessa vaarantuneeksi. Ks. lisää muualla sivustossamme .",
 			size: "45–55 cm, siipiväli 110–130 cm, suurempi kuin varis.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-hiirihaukka-micha-fager-pekka-komi-800x401.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/hiirihaukka-janne-bruun-xeno-canto-cc.mp3",
 		id: "hiirihaukka",
@@ -1625,8 +1701,9 @@ export const BIRDS: Bird[] = [
 				"Parvet ruokailevat muuttoaikoina ja talvella erityisesti lepän ja koivujen siemenillä.",
 			size: "11–12 cm, sinitiaisen kokoinen.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-vihervarpunen-micha-fager-800x420.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/vihervarpunen-copyright-birdlife.mp3",
 		id: "vihervarpunen",
@@ -1647,8 +1724,9 @@ export const BIRDS: Bird[] = [
 				"Yömuuttaja. Leutoina talvina Suomeen saattaa jäädä satoja punarintoja.",
 			size: "13–14 cm, talitiaisen kokoinen.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-punarinta-micha-fager-800x437.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/punarinta-copyright-birdlife.mp3",
 		id: "punarinta",
@@ -1667,8 +1745,9 @@ export const BIRDS: Bird[] = [
 				"Tuotu Pohjois-Amerikasta Eurooppaan riista- ja puistolinnuksi. Suomen kanta sai alkunsa 1960- ja 1970-luvuilla tuoduista linnuista.",
 			size: "90–100 cm, suurin hanhistamme, pienempi kuin joutsenet.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-kanadanhanhi-pekka-komi-800x455.jpg",
+		],
 		audioUrl: "http://www.lintukuva.fi/aanet/bracan.mp3",
 		id: "kanadanhanhi",
 		scientificName: "Branta canadensis",
@@ -1687,8 +1766,9 @@ export const BIRDS: Bird[] = [
 				"Tulokaslaji, joka on pesinyt Suomessa 1980-luvun alusta lähtien. Aikaisemmin vain arktinen läpimuuttaja.",
 			size: "60–70 cm, suurempi kuin sinisorsa.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-valkoposkihanhi-jussi-vakkala-800x435.jpg",
+		],
 		audioUrl: "http://www.lintukuva.fi/aanet/braleu.mp3",
 		id: "valkoposkihanhi",
 		scientificName: "Branta leucopsis",
@@ -1707,8 +1787,9 @@ export const BIRDS: Bird[] = [
 				"Lokakuussa voi yöllä kuulla runsaastikin muuttavien punakylkirastaiden kutsuääniä.",
 			size: "Noin 21 cm, pienempi kuin räkättirastas.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-punakylkirastas-micha-fager-800x450.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/punakylkirastas-copyright-birdlife.mp3",
 		id: "punakylkirastas",
@@ -1728,8 +1809,9 @@ export const BIRDS: Bird[] = [
 				"Hyvinä pihlajanmarjavuosina räkättirastaat viipyvät meillä tavallista pitempään. Etelä-Suomessa voi silloin nähdä isoja parvia vielä joulu-tammikuussa.",
 			size: "Noin 25 cm, mustarastaan kokoinen.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-rakattirastas-micha-fager-800x405.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/rakattirastas-copyright-birdlife.mp3",
 		id: "rakattirastas",
@@ -1749,8 +1831,9 @@ export const BIRDS: Bird[] = [
 				"Syö myyriä ja muita pikkunisäkkäitä, joita se tähystää näkyvästi puun latvassa tai sähkölangalla. Varastoi ylimääräisiä saaliita seivästämällä ne piikkilankoihin tai oksanhankaan.",
 			size: "Noin 24 cm, räkättirastaan kokoinen.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-isolepinkainen_micha-fager-800x340.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/isolepinkainen-copyright-birdlife.mp3",
 		id: "isolepinkainen",
@@ -1770,8 +1853,9 @@ export const BIRDS: Bird[] = [
 				"Tilhen maksa hajottaa hyvin tehokkaasti alkoholia, jota voi muodostua käyneisiin marjoihin.",
 			size: "Noin 20 cm, kottaraisen kokoinen.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-tilhi-micha-fager-800x420.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/tilhi-copyright-birdlife.mp3",
 		id: "tilhi",
@@ -1790,8 +1874,9 @@ export const BIRDS: Bird[] = [
 				"Ilmastonmuutoksen seurauksena Suomessa talvehtii nykyään kymmeniätuhansia tukkasotkia. Aikaisemmin laji talvehti meillä vain satunnaisesti. Ks. lisää muualla sivustossamme .",
 			size: "Noin 45 cm, telkän kokoinen.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2016/05/100-tukkasotka-micha-fager-800x382.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/tukkasotka-copyright-birdlife.mp3",
 		id: "tukkasotka",
@@ -1810,8 +1895,9 @@ export const BIRDS: Bird[] = [
 				"Syö kalaa ja muita vedeneläviä. Syksyllä ja talvella isot parvet voivat kalastaa ryhmässä ajamalla kaloja edellään. Ks. lisää muualla sivustossamme .",
 			size: "60–65 cm, suurempi kuin sinisorsa.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-isokoskelo-micha-fager-800x345.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/isokoskelo-copyright-birdlife.mp3",
 		id: "isokoskelo",
@@ -1831,8 +1917,9 @@ export const BIRDS: Bird[] = [
 				"Vaeltaa epäsäännöllisesti etelään. Päiväaktiivinen, päivystää peltoaukeilla ja metsien reunoilla.",
 			size: "Noin 40 cm, lehtopöllön kokoinen, vähän pienempi kuin varis.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-hiiripollo-pertti-rasp-800x482.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/hiiripollo-eero-patsi-xeno-canto-cc.mp3",
 		id: "hiiripollo",
@@ -1852,8 +1939,9 @@ export const BIRDS: Bird[] = [
 				"Tulee talvella myös pihoihin, varastoi myyriä ja pikkulintuja luonnonkoloon tai kottaraispönttöön.",
 			size: "Noin 17 cm, pienin pöllömme, pienempi kuin kottarainen.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-varpuspollo-pertti-rasp-800x466.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/varpuspollo-antero-lindholm-xeno-canto-cc.mp3",
 		id: "varpuspollo",
@@ -1873,8 +1961,9 @@ export const BIRDS: Bird[] = [
 				"Tulee usein pelottomana leiripaikoille ja metsäkämpille. Kainuun maakuntalintu. Ks. lisää muualla sivustossamme.",
 			size: "Noin 29 cm, suunnilleen ison rastaan kokoinen, pienempi kuin närhi.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-kuukkeli-micha-fager-800x415.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/kuukkeli-copyright-birdlife.mp3",
 		id: "kuukkeli",
@@ -1895,8 +1984,9 @@ export const BIRDS: Bird[] = [
 				"Kiipeää ruokaa etsiessään puunrunkoa ylöspäin ja lennähtää sitten alemmas seuraavaan puuhun kiivetäkseen taas ylöspäin.",
 			size: "Noin 13 cm, pienempi kuin talitiainen.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-puukiipija-jyrki-makela-800x469.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/puukiipija-copyright-birdlife.mp3",
 		id: "puukiipija",
@@ -1915,8 +2005,9 @@ export const BIRDS: Bird[] = [
 				"Osa kanahaukoista on siirtynyt metsistä kaupunkipuistoihin saalistamaan muun muassa puluja ja lokkeja. Ks. lisää muualla sivustossamme.",
 			size: "Noin 50–60 cm (naaras suurempi kuin koiras, siipiväli 1–1,2 m), suurempi kuin varis.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-kanahaukka-pertti-rasp-micha-fager-800x437.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/kanahaukka-eetu-paljakka-xeno-canto-cc.mp3",
 		id: "kanahaukka",
@@ -1937,8 +2028,9 @@ export const BIRDS: Bird[] = [
 				"Käy laiskana saalistajana haaskoilla ja perkuujätteillä. Syö myös merimetsoja niiden yhdyskunnissa. Ahvenanmaan maakuntalintu.",
 			size: "Noin 80–90 cm (siipiväli 2–2,4 m), suurin petolintumme.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-merikotka-micha-fagerf-ja-petri-vainio-800x407.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/merikotka-terje-kolaas-xeno-canto-cc.mp3",
 		id: "merikotka",
@@ -1958,8 +2050,9 @@ export const BIRDS: Bird[] = [
 				"Muiden metsäkanalintujen tavoin riekko yöpyy talvella – milloin mahdollista – kiepissä eli lumionkalossa. Peräpohjolan maakuntalintu.",
 			size: "Noin 40 cm, pienempi kuin teeri.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-riekko-petri-vainio-800x328.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/riekko-copyright-birdlife.mp3",
 		id: "riekko",
@@ -1979,8 +2072,9 @@ export const BIRDS: Bird[] = [
 				"Keväällä koiraat kokoontuvat näyttävään ryhmäsoitimeen aukeille paikoille.",
 			size: "Noin 40–55 cm, variksen kokoinen.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-teeri-micha-fager-800x435.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/teeri-copyright-birdlife.mp3",
 		id: "teeri",
@@ -1999,8 +2093,9 @@ export const BIRDS: Bird[] = [
 				"Paikkalintu, joka näyttäytyy harvoin pesimäalueen eteläpuolella. Joinakin syksyinä nuoria lintuja vaeltaa kuitenkin etelärannikkoa myöten.",
 			size: "Noin 13–14 cm, suunnilleen hömötiaisen kokoinen.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-lapintiainen-micha-fager-800x365.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/lapintiainen-copyright-birdlife.mp3",
 		id: "lapintiainen",
@@ -2020,8 +2115,9 @@ export const BIRDS: Bird[] = [
 				"Vähentynyt voimakkaasti, ja luokiteltiin siksi vuoden 2019 uhanalaisarvioinnissa erittäin uhanalaiseksi. Ks. lisää muualla sivustossamme .",
 			size: "Noin 12–13 cm, vähän pienempi kuin talitiainen.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-homotiainen-micha-fager-800x357.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/homotiainen-copyright-birdlife.mp3",
 		id: "homotiainen",
@@ -2041,8 +2137,9 @@ export const BIRDS: Bird[] = [
 				"Suomen suurin varpuslintu. Korpit ovat kokeissa osoittautuneet hyvin älykkäiksi linnuiksi.",
 			size: "Noin 60–65 cm, suurempi kuin varis ja harmaalokki.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-korppi-petri-vainio-800x491.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/korppi-copyright-birdlife.mp3",
 		id: "korppi",
@@ -2060,8 +2157,9 @@ export const BIRDS: Bird[] = [
 				"Pesii luonnonkoloihin, rakennusten onkaloihin tai voimalinjapylväiden tukirakenteisiin. Kokoontuu suuriin yöpymisparviin. Varsinais-Suomen maakuntalintu.",
 			size: "Noin 33 cm, kesykyyhkyn kokoinen, pienempi kuin varis.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-naakka-micha-fager-800x465.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/naakka-copyright-birdlife.mp3",
 		id: "naakka",
@@ -2081,8 +2179,9 @@ export const BIRDS: Bird[] = [
 				"Ruokailee talvella suurin parvin rikkaruohostoissa ja pelloilla ja käy myös ruokinnoilla. Määrät vaihtelevat vuodesta toiseen.",
 			size: "Noin 13 cm, pienempi kuin talitiainen, suurempi kuin sinitiainen.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-urpiainen-micha-fager-800x418.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/urpiainen-copyright-birdlife.mp3",
 		id: "urpiainen",
@@ -2101,8 +2200,9 @@ export const BIRDS: Bird[] = [
 				"Osittaismuuttaja, suuri osa jää meille talveksi, mutta osa muuttaa pois. Kymenlaakson maakuntalintu. Lisälajeja",
 			size: "Noin 16 cm, suurempi kuin talitiainen, suunnilleen peipon kokoinen.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2017/02/100-punatulkku-micha-fager-petri-vainio-800x356.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/punatulkku-copyright-birdlife.mp3",
 		id: "punatulkku",
@@ -2122,8 +2222,9 @@ export const BIRDS: Bird[] = [
 				"Rastaaksi varsin ihmisarka, viihtyy paremmin metsissä kuin pihapiireissä.",
 			size: "Noin 21 cm, pienempi kuin räkättirastas.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2021/06/turphi-MF-1-e1623398509718-800x606.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/laulurastas-copyright-birdlife.mp3",
 		id: "laulurastas",
@@ -2143,8 +2244,9 @@ export const BIRDS: Bird[] = [
 			other: "Kuuluu harvalukuisiin Aasiassa talvehtiviin muuttolintuihimme.",
 			size: "noin 14 cm, peipon kokoinen.",
 		},
-		imageUrl:
+		imageUrls: [
 			"https://www.birdlife.fi/wp-content/uploads/2021/06/carery-MF-800x606.jpg",
+		],
 		audioUrl:
 			"https://tiedostot.birdlife.fi/100lajia/punavarpunen-copyright-birdlife.mp3",
 		id: "punavarpunen",

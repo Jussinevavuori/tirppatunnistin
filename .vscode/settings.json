@@ -41,6 +41,10 @@
 		"/^bun run build$/": {
 			"approve": true,
 			"matchCommandLine": true
+		},
+		"/^bun biome check$/": {
+			"approve": true,
+			"matchCommandLine": true
 		}
 	}
 }
