@@ -10,7 +10,9 @@ export type AppShellProps = {
 export function AppShell(props: AppShellProps) {
 	return (
 		<div className="relative mx-auto flex min-h-screen max-w-2xl flex-col px-4 py-2">
-			<header className="box-shadow sticky top-2 -mx-2">{props.header}</header>
+			<header className="box-shadow sticky top-2 z-20 -mx-2">
+				{props.header}
+			</header>
 			<main
 				className={cn(
 					"-mx-4 flex-1 overflow-y-auto overflow-x-hidden px-4 py-16",
@@ -19,7 +21,7 @@ export function AppShell(props: AppShellProps) {
 			>
 				{props.children}
 			</main>
-			<footer className="box-shadow sticky bottom-2 -mx-2">
+			<footer className="box-shadow sticky bottom-2 z-20 -mx-2">
 				{props.footer}
 			</footer>
 		</div>

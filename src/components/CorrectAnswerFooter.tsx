@@ -3,6 +3,7 @@ import type { Bird } from "#/data/birds";
 import { getStreak } from "#/utils/streak";
 import { Box } from "./Box";
 import { Button } from "./Button";
+import { StreakDetails } from "./StreakDetails";
 
 export type CorrectAnswerFooterProps = {
 	bird: Bird;
@@ -29,7 +30,11 @@ export function CorrectAnswerFooter(props: CorrectAnswerFooterProps) {
 				</Box>
 			)}
 
-			<Box className="bg-emerald-500">
+			<Box className="relative bg-emerald-500">
+				<div className="absolute top-0 right-2 -translate-y-1/2">
+					<StreakDetails bird={props.bird} />
+				</div>
+
 				<p className="space-x-1 font-semibold text-2xl">
 					<span className="inline-block -skew-x-3 bg-emerald-100 px-1">
 						{props.bird.nameFi}

@@ -2,7 +2,12 @@ import { useAtom } from "@xstate/store-react";
 import { BirdIcon, XIcon } from "lucide-react";
 import { useMemo, useState } from "react";
 import type { Bird } from "#/data/birds";
-import { answersAtom, birdsAtom, totalRoundsAtom } from "#/store/game.store";
+import {
+	answersAtom,
+	birdsAtom,
+	hideImageAtom,
+	totalRoundsAtom,
+} from "#/store/game.store";
 import type { Answer } from "#/utils/answer";
 import { AnswerFormFooter } from "./AnswerFormFooter";
 import { AppShell } from "./AppShell";
@@ -19,7 +24,10 @@ export type GameScreenProps = {
 export function GameScreen({ bird }: GameScreenProps) {
 	const totalRounds = useAtom(totalRoundsAtom);
 	const answers = useAtom(answersAtom);
+	const hideImage = useAtom(hideImageAtom);
 	const [answer, setAnswer] = useState<null | Answer>(null);
+
+	const [imageMode, setImageMode] = useState<"cover" | "contain">("cover");
 
 	// Get a random image index for each bird
 	const imageIndex = useMemo(
@@ -75,11 +83,22 @@ export function GameScreen({ bird }: GameScreenProps) {
 				)
 			}
 		>
-			<img
-				src={bird.imageUrls[imageIndex]}
-				alt={bird.nameFi}
-				className="box-shadow w-full border-2"
-			/>
+			{!hideImage && (
+				<button
+					type="button"
+					className="box-shadow aspect-square w-full border-2 bg-black"
+					onClick={() =>
+						setImageMode(imageMode === "cover" ? "contain" : "cover")
+					}
+				>
+					<img
+						src={bird.imageUrls[imageIndex]}
+						alt={bird.nameFi}
+						className="size-full"
+						style={{ objectFit: imageMode }}
+					/>
+				</button>
+			)}
 
 			{answer ? (
 				<div className="flex flex-col gap-2 py-8">

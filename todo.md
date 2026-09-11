@@ -1,6 +1,1 @@
 - Käy läpi kaikki kuvat, poista huonot
-- Square images
-- Streak details (corrects, correct streak, mistakes) for each bird
-	- Add to bird browser
-	- Add to answer footers
-- Mobile responsivity

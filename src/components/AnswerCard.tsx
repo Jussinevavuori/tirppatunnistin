@@ -1,8 +1,8 @@
 import cn from "cnfast";
-import { BirdIcon, FlameIcon } from "lucide-react";
+import { BirdIcon } from "lucide-react";
 import type { Answer } from "#/utils/answer";
-import { getStreak } from "#/utils/streak";
 import { Box } from "./Box";
+import { StreakDetails } from "./StreakDetails";
 
 export type AnswerCardProps = {
 	answer: Answer;
@@ -10,8 +10,6 @@ export type AnswerCardProps = {
 };
 
 export function AnswerCard({ answer, index }: AnswerCardProps) {
-	const streak = getStreak(answer.bird);
-
 	return (
 		<Box className="gap-0 p-0">
 			<div className="flex items-center justify-between gap-2 bg-white p-2">
@@ -19,28 +17,15 @@ export function AnswerCard({ answer, index }: AnswerCardProps) {
 					<BirdIcon className="size-5" />
 					<p className="font-medium">Tirppa {index + 1}</p>
 				</div>
-
-				{streak > 1 ? (
-					<div className="flex -skew-x-6 items-center gap-1 bg-amber-300 px-1 py-1">
-						<FlameIcon className="size-5 text-orange-600" />
-						<p className="font-medium">{streak}</p>
-					</div>
-				) : streak === 1 ? (
-					<div className="flex items-center gap-1">
-						<FlameIcon className="size-5 text-emerald-500" />
-						<p className="font-medium text-emerald-500">{streak}</p>
-					</div>
-				) : (
-					<div className="flex items-center gap-1">
-						<FlameIcon className="size-5 text-gray-500" />
-						<p className="font-medium text-gray-500">{streak}</p>
-					</div>
-				)}
 			</div>
-			<div className="flex flex-1 flex-col items-stretch justify-center border-y-2 bg-black">
+			<div className="relative flex border-y-2">
+				<div className="absolute right-2 bottom-0 z-10 translate-y-2">
+					<StreakDetails bird={answer.bird} />
+				</div>
 				<img
 					src={answer.bird.imageUrls[answer.imageIndex]}
 					alt={answer.bird.nameFi}
+					className="aspect-square w-full object-cover"
 				/>
 			</div>
 			<div

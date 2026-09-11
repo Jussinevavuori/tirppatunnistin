@@ -13,7 +13,7 @@ function Page() {
 	const bird = birds[answers.length];
 
 	// Game ongoing and index within bounds: Round screen
-	if (bird) return <GameScreen bird={bird} />;
+	if (bird) return <GameScreen bird={bird} key={bird.id} />;
 
 	// Game ongoing, but index out of bounds: End screen
 	if (birds.length > 0 && !bird) return <GameOverScreen />;

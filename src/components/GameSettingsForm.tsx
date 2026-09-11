@@ -25,12 +25,12 @@ export function GameSettingsForm() {
 		<Box className="w-full items-stretch gap-8">
 			<div className="flex flex-col items-center gap-4">
 				<p className="font-medium">Miten tänään pelataan, tirppabongari?</p>
-				<div className="flex w-full items-center gap-4">
+				<div className="flex w-full flex-col items-stretch gap-4 sm:items-center md:flex-row">
 					{ANSWER_MODES.map((option) => (
 						<Button
 							key={option}
 							className={cn(
-								"flex-1 gap-2",
+								"gap-2 md:flex-1",
 								option === answerMode ? "bg-emerald-500" : "",
 							)}
 							onClick={() => answerModeAtom.set(option)}
@@ -49,12 +49,12 @@ export function GameSettingsForm() {
 
 			<div className="flex flex-col items-center gap-4">
 				<p className="font-medium">Ja montako tirppaa saisi olla?</p>
-				<div className="flex w-full items-center gap-4">
+				<div className="flex w-full flex-col items-stretch gap-4 sm:items-center md:flex-row">
 					{[5, 10, 20].map((option, index) => (
 						<Button
 							key={option}
 							className={cn(
-								"flex-1 gap-2",
+								"gap-2 md:flex-1",
 								option === totalRounds ? "bg-emerald-500" : "",
 							)}
 							onClick={() => totalRoundsAtom.set(option)}
@@ -73,22 +73,22 @@ export function GameSettingsForm() {
 
 			<div className="flex flex-col items-center gap-4">
 				<p className="font-medium">Ja saisiko olla lisähaastetta?</p>
-				<div className="flex w-full items-center gap-4">
-					{[true, false].map((option) => (
+				<div className="flex w-full flex-col items-stretch gap-4 sm:items-center md:flex-row">
+					{[false, true].map((option) => (
 						<Button
 							key={String(option)}
 							className={cn(
-								"flex-1 gap-2",
+								"gap-2 md:flex-1",
 								option === hideImage ? "bg-emerald-500" : "",
 							)}
 							onClick={() => hideImageAtom.set(option)}
 						>
 							{option ? (
-								<CameraIcon className="size-4" />
-							) : (
 								<AudioLinesIcon className="size-4" />
+							) : (
+								<CameraIcon className="size-4" />
 							)}
-							{option ? <p>Kuvien kanssa</p> : <p>Vain äänellä</p>}
+							{option ? <p>Vain äänellä</p> : <p>Kuvien kanssa</p>}
 						</Button>
 					))}
 				</div>

@@ -3,6 +3,7 @@ import { BirdIcon, XIcon } from "lucide-react";
 import { AppShell } from "#/components/AppShell";
 import { Box } from "#/components/Box";
 import { LinkButton } from "#/components/LinkButton";
+import { StreakDetails } from "#/components/StreakDetails";
 import { BIRDS } from "#/data/birds";
 
 export const Route = createFileRoute("/browse/")({
@@ -40,15 +41,23 @@ function RouteComponent() {
 							alt={bird.nameFi}
 							className="mr-2 h-24 w-24 object-cover"
 						/>
-						<div>
-							<p className="mr-1 font-mono text-sm">
-								{String(birdIndex + 1).padStart(3, "0")}
-							</p>
-							<p className="font-bold text-2xl tracking-tight">{bird.nameFi}</p>
+						<div className="flex flex-1 flex-row items-center justify-between gap-2">
+							<div>
+								<p className="mr-1 font-mono text-sm">
+									{String(birdIndex + 1).padStart(3, "0")}
+								</p>
+								<p className="font-bold text-2xl tracking-tight">
+									{bird.nameFi}
+								</p>
 
-							<div className="flex flex-row items-center gap-1">
-								<p className="text-sm">{bird.nameSv}</p>
-								<p className="text-sm italic">({bird.scientificName})</p>
+								<div className="flex flex-row items-center gap-1">
+									<p className="text-sm">{bird.nameSv}</p>
+									<p className="text-sm italic">({bird.scientificName})</p>
+								</div>
+							</div>
+
+							<div className="flex h-full justify-start">
+								<StreakDetails bird={bird} />
 							</div>
 						</div>
 					</LinkButton>
