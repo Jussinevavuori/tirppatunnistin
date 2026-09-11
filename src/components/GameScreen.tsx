@@ -1,6 +1,6 @@
 import { useAtom } from "@xstate/store-react";
 import { BirdIcon, XIcon } from "lucide-react";
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import type { Bird } from "#/data/birds";
 import { answersAtom, birdsAtom, totalRoundsAtom } from "#/store/game.store";
 import type { Answer } from "#/utils/answer";
@@ -12,17 +12,20 @@ import { Button } from "./Button";
 import { CorrectAnswerFooter } from "./CorrectAnswerFooter";
 import { WrongAnswerFooter } from "./WrongAnswerFooter";
 
-export type BirdScreenProps = {
+export type GameScreenProps = {
 	bird: Bird;
 };
 
-export function BirdScreen({ bird }: BirdScreenProps) {
+export function GameScreen({ bird }: GameScreenProps) {
 	const totalRounds = useAtom(totalRoundsAtom);
 	const answers = useAtom(answersAtom);
 	const [answer, setAnswer] = useState<null | Answer>(null);
 
-	// Get a random image index
-	const imageIndex = Math.floor(Math.random() * bird.imageUrls.length);
+	// Get a random image index for each bird
+	const imageIndex = useMemo(
+		() => Math.floor(Math.random() * bird.imageUrls.length),
+		[bird],
+	);
 
 	function handleNext() {
 		if (!answer) return;

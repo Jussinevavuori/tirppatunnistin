@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useAtom } from "@xstate/store-react";
-import { BirdScreen } from "#/components/BirdScreen";
 import { GameOverScreen } from "#/components/GameOverScreen";
+import { GameScreen } from "#/components/GameScreen";
 import { HomeScreen } from "#/components/HomeScreen";
 import { answersAtom, birdsAtom } from "#/store/game.store";
 
@@ -13,7 +13,7 @@ function Page() {
 	const bird = birds[answers.length];
 
 	// Game ongoing and index within bounds: Round screen
-	if (bird) return <BirdScreen bird={bird} />;
+	if (bird) return <GameScreen bird={bird} />;
 
 	// Game ongoing, but index out of bounds: End screen
 	if (birds.length > 0 && !bird) return <GameOverScreen />;

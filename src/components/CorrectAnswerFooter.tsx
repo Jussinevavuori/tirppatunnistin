@@ -37,6 +37,12 @@ export function CorrectAnswerFooter(props: CorrectAnswerFooterProps) {
 					on oikein!
 				</p>
 
+				<div className="flex flex-row items-center gap-2">
+					<p>{props.bird.nameSv}</p>
+					<p>·</p>
+					<p className="italic">({props.bird.scientificName})</p>
+				</div>
+
 				<p className="py-4 font-medium">{props.bird.description.other}</p>
 
 				<Button onClick={props.onNext}>
